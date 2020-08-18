@@ -11,3 +11,5 @@ Este é um repositório sobre o conceito de UI do Projeto da Vupy, aqui é onde 
 Todo o estilo é baseado neste nosso lema não preencheremos um espaço que precisa ser simplesmente vazio por sua natureza, pelo fato de não preenchermos o torna vago para a imaginação de cada pessoa ou simplesmente não poluir o puro.
 
 O nome SUI tem um motivo claro e simples é um conjunto de componentes de UI suaves e clean, deixamos claro que gostamos de algo agradável visualmente, e que não há a necessidade de adicionar efeitoS desnecessários ou muito extravagante, por isso SOFT, é bem claro, mas deixaremos também explicito que somos adeptos do KISS (*keep it sample*) então não haverá complexidades no uso ou no entendimento. 
+
+É possível ver a nossa prototipação no Figma neste [link](https://www.figma.com/file/NukLfKMi0CYInjxDMlmLv1/SoftUi?node-id=0%3A1). Haverá neste link do Figma a estrutura de menus, modais, botões e entre outros, estamos construindo então vai ter mudanças seja modificações ou inclusões.
