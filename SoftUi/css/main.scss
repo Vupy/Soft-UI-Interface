@@ -26,7 +26,6 @@ html, body, div.app {
     height: 100%;
 }
 
-
 .sur__color__red{
     min-width: 3rem;
     min-height: 3rem;
@@ -53,7 +52,9 @@ div.app {
             display: flex;
             position: fixed;
             padding: 0 .5rem;
-            box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, .2);
+            box-shadow: 0px 0px 5px 0 rgba(89, 49, 56, .2), 
+                        0px 0px 7px 0 rgba(89, 49, 56, .1),
+                        0px 0px 9px 0 rgba(89, 49, 56, .1);
             z-index: 10;
             top: 0;
             transition: 0.3s ease-in-out;
@@ -87,7 +88,9 @@ div.app {
             flex-direction: column;
             position: fixed;
             padding: 1rem 1.5rem;
-            box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, .2);
+            box-shadow: 0px 0px 5px 0 rgba(89, 49, 56, .2), 
+                        0px 0px 7px 0 rgba(89, 49, 56, .1),
+                        0px 0px 9px 0 rgba(89, 49, 56, .1);
             z-index: 10;
             top: 0;
             transition: 0.3s ease-in-out;
@@ -114,7 +117,7 @@ div.app {
             height: 2rem;
             border-radius: 100%;
             box-shadow: 1px 1px 6px -1px rgba(0, 0, 0, .2);
-            margin-right: .25rem;
+            margin-right: .5rem;
         }
 
         .logo {
@@ -125,7 +128,7 @@ div.app {
             img {
                 width: auto;
                 height: 3rem;
-                margin-right: .25rem;
+                margin-right: .5rem;
                 border-radius: 6px;
             }
         }
@@ -326,7 +329,7 @@ div.app {
             background-color: white;
             overflow: hidden;
             border-radius: 8px;
-            box-shadow: 0 0 6px -1px rgba(0, 0, 0, .2);
+            box-shadow: 0 0 6px -1px rgba(89, 49, 56, .2), 0 0 8px -1px rgba(89, 49, 56, .15);
 
             div.image__card{
                 width: 100%;
@@ -395,9 +398,13 @@ div.app {
                             border-radius: 100%;
                         }
 
-                        &.square{
+                        &.square__round{
                             border-radius: 8px;
                         }
+
+                        &.square{
+                            border-radius: 0px;
+                        };
                     }
                 }
 
