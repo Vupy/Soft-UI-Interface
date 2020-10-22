@@ -1,4 +1,12 @@
 $vupycolor: #e7002a;
+$backcolor: #d5dbdf;
+$backcolordark: #b8bbbd;
+
+$darkbackcolor: #303030;
+$darkbackcolordark: rgb(18, 18, 18);
+
+$darksyntax: rgb(33, 33, 33);
+$darksyntaxdark: rgb(26, 26, 26);
 
 
 * {
@@ -10,23 +18,25 @@ $vupycolor: #e7002a;
     line-height: 1.75;
     scrollbar-width: thin;
     scrollbar-color: $vupycolor;
-    
+
     &::-webkit-scrollbar {
         background-color: white;
         width: .3rem;
     }
-    
+
     &::-webkit-scrollbar-thumb {
         background: $vupycolor;
     }
 }
 
-html, body, div.app {
+html,
+body,
+div.app {
     width: 100%;
     height: 100%;
 }
 
-.sur__color__red{
+.sur__color__red {
     min-width: 3rem;
     min-height: 3rem;
     border: 2px solid #e7002a;
@@ -36,7 +46,7 @@ html, body, div.app {
     justify-content: center;
     color: #e7002a;
 
-    &.full__red{
+    &.full__red {
         background-color: #e7002a;
         color: white;
     }
@@ -52,9 +62,9 @@ div.app {
             display: flex;
             position: fixed;
             padding: 0 .5rem;
-            box-shadow: 0px 0px 5px 0 rgba(89, 49, 56, .2), 
-                        0px 0px 7px 0 rgba(89, 49, 56, .1),
-                        0px 0px 9px 0 rgba(89, 49, 56, .1);
+            box-shadow: 0px 0px 5px 0 rgba(89, 49, 56, .2),
+                0px 0px 7px 0 rgba(89, 49, 56, .1),
+                0px 0px 9px 0 rgba(89, 49, 56, .1);
             z-index: 10;
             top: 0;
             transition: 0.3s ease-in-out;
@@ -64,7 +74,8 @@ div.app {
             ul {
                 display: flex;
 
-                li, a {
+                li,
+                a {
                     cursor: pointer;
                     list-style: none;
                     padding: 0 .75rem;
@@ -88,9 +99,9 @@ div.app {
             flex-direction: column;
             position: fixed;
             padding: 1rem 1.5rem;
-            box-shadow: 0px 0px 5px 0 rgba(89, 49, 56, .2), 
-                        0px 0px 7px 0 rgba(89, 49, 56, .1),
-                        0px 0px 9px 0 rgba(89, 49, 56, .1);
+            box-shadow: 0px 0px 5px 0 rgba(89, 49, 56, .2),
+                0px 0px 7px 0 rgba(89, 49, 56, .1),
+                0px 0px 9px 0 rgba(89, 49, 56, .1);
             z-index: 10;
             top: 0;
             transition: 0.3s ease-in-out;
@@ -100,7 +111,8 @@ div.app {
             ul {
                 margin-top: 1.5rem;
 
-                li, a {
+                li,
+                a {
                     cursor: pointer;
                     color: #000;
                     list-style: none;
@@ -134,219 +146,393 @@ div.app {
         }
     }
 
-    main{
+    main {
         padding-top: 4.5rem;
 
-        div.flex__column{
+        .w-100 {
+            width: 100%;
+        }
+
+        .w-75 {
+            width: 75%;
+        }
+
+        .w-50 {
+            width: 50%;
+        }
+
+        .w-25 {
+            width: 25%;
+        }
+
+        .w-33 {
+            width: 33.33%;
+        }
+
+        .w-66 {
+            width: 66.66%;
+        }
+
+        .h-100 {
+            height: 100%;
+        }
+
+        .h-75 {
+            height: 75%;
+        }
+
+        .h-50 {
+            height: 50%;
+        }
+
+        .h-25 {
+            height: 25%;
+        }
+
+        .h-33 {
+            height: 33.33%;
+        }
+
+        .h-66 {
+            height: 66.66%;
+        }
+
+        .flex__column {
             display: flex;
             flex-direction: column;
         }
 
-        div.flex__align__center{
+        .flex__align__center {
             align-items: center;
         }
 
-        div.flex__justify__center{
+        .flex__justify__center {
             justify-content: center;
         }
 
-        div.grid{
+        .grid {
             display: grid;
             gap: .5rem;
 
-            &.grid__1{
+            &.grid__1 {
                 grid-template-columns: 1fr;
             }
-    
-            &.grid__2{
+
+            &.grid__2 {
                 grid-template-columns: 1fr 1fr;
             }
-    
-            &.grid__3{
+
+            &.grid__3 {
                 grid-template-columns: 1fr 1fr 1fr;
             }
-    
-            &.grid__4{
+
+            &.grid__4 {
                 grid-template-columns: 1fr 1fr 1fr 1fr;
             }
-    
-            &.grid__5{
+
+            &.grid__5 {
                 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             }
-    
-            &.grid__6{
+
+            &.grid__6 {
                 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
             }
 
-            .grid__span_2{
+            .grid__span_2 {
                 grid-column: span 2;
             }
 
-            .grid__span_3{
+            .grid__span_3 {
                 grid-column: span 3;
             }
 
-            .grid__span_4{
+            .grid__span_4 {
                 grid-column: span 4;
             }
 
-            .grid__span_5{
+            .grid__span_5 {
                 grid-column: span 5;
             }
 
-            .grid__span_6{
+            .grid__span_6 {
                 grid-column: span 6;
             }
 
-            .grid__span__row_2{
+            .grid__span__row_2 {
                 grid-row: span 2;
             }
 
-            .grid__span__row_3{
+            .grid__span__row_3 {
                 grid-row: span 3;
             }
 
-            .grid__span__row_4{
+            .grid__span__row_4 {
                 grid-row: span 4;
             }
 
-            .grid__span__row_5{
+            .grid__span__row_5 {
                 grid-row: span 5;
             }
 
-            .grid__span__row_6{
+            .grid__span__row_6 {
                 grid-row: span 6;
             }
         }
 
-        div.padt-1{
+        .padt-1 {
             margin-top: 1rem;
         }
 
-        div.padt-2{
+        .padt-2 {
             margin-top: 2rem;
         }
 
-        div.padt-3{
+        .padt-3 {
             margin-top: 3rem;
         }
 
-        div.padt-4{
+        .padt-4 {
             margin-top: 4rem;
         }
 
-        div.padl-1{
+        .padl-1 {
             margin-left: 1rem;
         }
 
-        div.padl-2{
+        .padl-2 {
             margin-left: 2rem;
         }
 
-        div.padl-3{
+        .padl-3 {
             margin-left: 3rem;
         }
 
-        div.padl-4{
+        .padl-4 {
             margin-left: 4rem;
         }
 
-        div.padr-1{
+        .padr-1 {
             margin-right: 1rem;
         }
 
-        div.padr-2{
+        .padr-2 {
             margin-right: 2rem;
         }
 
-        div.padr-3{
+        .padr-3 {
             margin-right: 3rem;
         }
 
-        div.padr-4{
+        .padr-4 {
             margin-right: 4rem;
         }
 
-        div.padb-1{
+        .padb-1 {
             margin-bottom: 1rem;
         }
 
-        div.padb-2{
+        .padb-2 {
             margin-bottom: 2rem;
         }
 
-        div.padb-3{
+        .padb-3 {
             margin-bottom: 3rem;
         }
 
-        div.padb-4{
+        .padb-4 {
             margin-bottom: 4rem;
         }
 
-        div.padh-1{
+        .padh-1 {
             margin-left: 1rem;
             margin-right: 1rem;
         }
 
-        div.padh-2{
+        .padh-2 {
             margin-left: 2rem;
             margin-right: 2rem;
         }
 
-        div.padh-3{
+        .padh-3 {
             margin-left: 3rem;
             margin-right: 3rem;
         }
 
-        div.padh-4{
+        .padh-4 {
             margin-left: 4rem;
             margin-right: 4rem;
-        } 
+        }
+
+        .padv-1 {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .padv-2 {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .padv-3 {
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        .padv-4 {
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+        }
+
+        img{
+            &.rounded {
+                border-radius: 100%;
+            }
+
+            &.square__round {
+                border-radius: 8px;
+            }
+
+            &.square {
+                border-radius: 0px;
+            }
+        }
+
+        .input {
+            cursor: pointer;
+            height: 2.5rem;
+            border: 2px solid $backcolor;
+            transition: 0.3s ease-in-out;
+            border-radius: 6px;
+            padding: 0 1rem;
+
+            &:hover,
+            &:focus {
+                border: 2px solid $backcolordark;
+            }
+        }
+
+        textarea.input {
+            height: 7.5rem;
+            resize: vertical;
+            padding-top: .5rem;
+        }
+
+        div.input__hero__label {
+            position: relative;
+
+            label {
+                position: absolute;
+                font-size: .95rem;
+                transform: translate(0, -50%);
+                top: 50%;
+                left: 1.2rem;
+                color: #5e5e5e;
+                padding: 0 .25rem;
+                transition: 0.1s ease-in;
+            }
+
+            .input:focus~label,
+            .input:not(:placeholder-shown)~label {
+                top: 2px;
+                font-size: .75rem;
+                background-color: white;
+                left: 1rem;
+
+            }
+        }
+
+        .pub {
+            cursor: pointer;
+            font-weight: 400;
+            border-radius: 4px;
+            transition: 0.3s ease-in-out;
+            background-color: $vupycolor;
+            text-align: center;
+            padding: 4px;
+            min-width: 10vw;
+            font-size: 90%;
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+            border: 2px solid transparent;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+
+            &:hover {
+                box-shadow: 0 0 4px -1px rgba(0, 0, 0, .5);
+            }
+
+            i {
+                line-height: 2.3rem;
+
+                &.high {
+                    font-size: 1.35rem;
+                }
+            }
+
+            span {
+                display: block;
+                position: absolute;
+                border-radius: 50%;
+                background-color: rgba(255, 255, 255, 0.2);
+                width: 100px;
+                height: 100px;
+                animation: ripple 1s;
+                opacity: 0;
+                transform: scale(1);
+            }
+
+            &.only__border {
+                border: 2px solid $vupycolor;
+                background: none;
+                color: black;
+            }
+
+            &.min {
+                min-width: 0;
+            }
         
-        div.padv-1{
-            margin-top: 1rem;
-            margin-bottom: 1rem;
+            &.no__shadow{
+                box-shadow: none;
+            }
+
+            &.rounded{
+                border-radius: 10rem;
+
+                &.circle{
+                    width: 2.5rem;
+                    height: 2.5rem;
+                }
+            }
         }
 
-        div.padv-2{
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-        }
-
-        div.padv-3{
-            margin-top: 3rem;
-            margin-bottom: 3rem;
-        }
-
-        div.padv-4{
-            margin-top: 4rem;
-            margin-bottom: 4rem;
-        } 
-
-        div.card{
-            width: 50%;
+        div.card {
+            //height: 50%;
             height: auto;
             background-color: white;
             overflow: hidden;
             border-radius: 8px;
             box-shadow: 0 0 6px -1px rgba(89, 49, 56, .2), 0 0 8px -1px rgba(89, 49, 56, .15);
 
-            div.image__card{
+            div.image__card {
                 width: 100%;
                 height: 15rem;
                 overflow: hidden;
 
-                img{
+                img {
                     width: 100%;
                     height: auto;
                 }
             }
 
-            span.card__header__info{
+            span.card__header__info {
                 font-size: .9rem;
             }
 
-            div.card__footer{
+            div.card__footer {
                 display: flex;
                 flex-direction: row;
                 height: 4rem;
@@ -354,7 +540,7 @@ div.app {
                 align-items: center;
                 margin-top: 1rem;
 
-                div.item{
+                div.item {
                     cursor: pointer;
                     height: 4rem;
                     line-height: 4rem;
@@ -365,20 +551,20 @@ div.app {
                     margin-right: 1rem;
                     font-size: 115%;
 
-                    &.right{
+                    &.right {
                         margin-left: auto;
                     }
                 }
             }
 
-            div.pad{
+            div.pad {
                 padding: 1.2rem;
 
-                .right{
+                .right {
                     margin-left: auto;
                 }
 
-                header{
+                header {
                     height: 4rem;
                     display: flex;
                     flex-direction: row;
@@ -389,26 +575,14 @@ div.app {
                     margin: .5rem 0;
                     position: relative;
 
-                    img{
+                    img {
                         width: 3rem;
                         height: 3rem;
                         margin-right: .5rem;
-
-                        &.rounded{
-                            border-radius: 100%;
-                        }
-
-                        &.square__round{
-                            border-radius: 8px;
-                        }
-
-                        &.square{
-                            border-radius: 0px;
-                        };
                     }
                 }
 
-                p.text{
+                p.text {
                     margin-top: 1rem;
                     text-align: justify;
                     font-size: 110%;

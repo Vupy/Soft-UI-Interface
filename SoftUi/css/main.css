@@ -16,7 +16,9 @@
   background: #e7002a;
 }
 
-html, body, div.app {
+html,
+body,
+div.app {
   width: 100%;
   height: 100%;
 }
@@ -55,7 +57,8 @@ div.app nav.top__menu {
 div.app nav.top__menu ul {
   display: flex;
 }
-div.app nav.top__menu ul li, div.app nav.top__menu ul a {
+div.app nav.top__menu ul li,
+div.app nav.top__menu ul a {
   cursor: pointer;
   list-style: none;
   padding: 0 0.75rem;
@@ -86,7 +89,8 @@ div.app nav.left__menu {
 div.app nav.left__menu ul {
   margin-top: 1.5rem;
 }
-div.app nav.left__menu ul li, div.app nav.left__menu ul a {
+div.app nav.left__menu ul li,
+div.app nav.left__menu ul a {
   cursor: pointer;
   color: #000;
   list-style: none;
@@ -116,150 +120,288 @@ div.app nav .logo img {
 div.app main {
   padding-top: 4.5rem;
 }
-div.app main div.flex__column {
+div.app main .w-100 {
+  width: 100%;
+}
+div.app main .w-75 {
+  width: 75%;
+}
+div.app main .w-50 {
+  width: 50%;
+}
+div.app main .w-25 {
+  width: 25%;
+}
+div.app main .w-33 {
+  width: 33.33%;
+}
+div.app main .w-66 {
+  width: 66.66%;
+}
+div.app main .h-100 {
+  height: 100%;
+}
+div.app main .h-75 {
+  height: 75%;
+}
+div.app main .h-50 {
+  height: 50%;
+}
+div.app main .h-25 {
+  height: 25%;
+}
+div.app main .h-33 {
+  height: 33.33%;
+}
+div.app main .h-66 {
+  height: 66.66%;
+}
+div.app main .flex__column {
   display: flex;
   flex-direction: column;
 }
-div.app main div.flex__align__center {
+div.app main .flex__align__center {
   align-items: center;
 }
-div.app main div.flex__justify__center {
+div.app main .flex__justify__center {
   justify-content: center;
 }
-div.app main div.grid {
+div.app main .grid {
   display: grid;
   gap: 0.5rem;
 }
-div.app main div.grid.grid__1 {
+div.app main .grid.grid__1 {
   grid-template-columns: 1fr;
 }
-div.app main div.grid.grid__2 {
+div.app main .grid.grid__2 {
   grid-template-columns: 1fr 1fr;
 }
-div.app main div.grid.grid__3 {
+div.app main .grid.grid__3 {
   grid-template-columns: 1fr 1fr 1fr;
 }
-div.app main div.grid.grid__4 {
+div.app main .grid.grid__4 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-div.app main div.grid.grid__5 {
+div.app main .grid.grid__5 {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-div.app main div.grid.grid__6 {
+div.app main .grid.grid__6 {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-div.app main div.grid .grid__span_2 {
+div.app main .grid .grid__span_2 {
   grid-column: span 2;
 }
-div.app main div.grid .grid__span_3 {
+div.app main .grid .grid__span_3 {
   grid-column: span 3;
 }
-div.app main div.grid .grid__span_4 {
+div.app main .grid .grid__span_4 {
   grid-column: span 4;
 }
-div.app main div.grid .grid__span_5 {
+div.app main .grid .grid__span_5 {
   grid-column: span 5;
 }
-div.app main div.grid .grid__span_6 {
+div.app main .grid .grid__span_6 {
   grid-column: span 6;
 }
-div.app main div.grid .grid__span__row_2 {
+div.app main .grid .grid__span__row_2 {
   grid-row: span 2;
 }
-div.app main div.grid .grid__span__row_3 {
+div.app main .grid .grid__span__row_3 {
   grid-row: span 3;
 }
-div.app main div.grid .grid__span__row_4 {
+div.app main .grid .grid__span__row_4 {
   grid-row: span 4;
 }
-div.app main div.grid .grid__span__row_5 {
+div.app main .grid .grid__span__row_5 {
   grid-row: span 5;
 }
-div.app main div.grid .grid__span__row_6 {
+div.app main .grid .grid__span__row_6 {
   grid-row: span 6;
 }
-div.app main div.padt-1 {
+div.app main .padt-1 {
   margin-top: 1rem;
 }
-div.app main div.padt-2 {
+div.app main .padt-2 {
   margin-top: 2rem;
 }
-div.app main div.padt-3 {
+div.app main .padt-3 {
   margin-top: 3rem;
 }
-div.app main div.padt-4 {
+div.app main .padt-4 {
   margin-top: 4rem;
 }
-div.app main div.padl-1 {
+div.app main .padl-1 {
   margin-left: 1rem;
 }
-div.app main div.padl-2 {
+div.app main .padl-2 {
   margin-left: 2rem;
 }
-div.app main div.padl-3 {
+div.app main .padl-3 {
   margin-left: 3rem;
 }
-div.app main div.padl-4 {
+div.app main .padl-4 {
   margin-left: 4rem;
 }
-div.app main div.padr-1 {
+div.app main .padr-1 {
   margin-right: 1rem;
 }
-div.app main div.padr-2 {
+div.app main .padr-2 {
   margin-right: 2rem;
 }
-div.app main div.padr-3 {
+div.app main .padr-3 {
   margin-right: 3rem;
 }
-div.app main div.padr-4 {
+div.app main .padr-4 {
   margin-right: 4rem;
 }
-div.app main div.padb-1 {
+div.app main .padb-1 {
   margin-bottom: 1rem;
 }
-div.app main div.padb-2 {
+div.app main .padb-2 {
   margin-bottom: 2rem;
 }
-div.app main div.padb-3 {
+div.app main .padb-3 {
   margin-bottom: 3rem;
 }
-div.app main div.padb-4 {
+div.app main .padb-4 {
   margin-bottom: 4rem;
 }
-div.app main div.padh-1 {
+div.app main .padh-1 {
   margin-left: 1rem;
   margin-right: 1rem;
 }
-div.app main div.padh-2 {
+div.app main .padh-2 {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-div.app main div.padh-3 {
+div.app main .padh-3 {
   margin-left: 3rem;
   margin-right: 3rem;
 }
-div.app main div.padh-4 {
+div.app main .padh-4 {
   margin-left: 4rem;
   margin-right: 4rem;
 }
-div.app main div.padv-1 {
+div.app main .padv-1 {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-div.app main div.padv-2 {
+div.app main .padv-2 {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-div.app main div.padv-3 {
+div.app main .padv-3 {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
-div.app main div.padv-4 {
+div.app main .padv-4 {
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+div.app main img.rounded {
+  border-radius: 100%;
+}
+div.app main img.square__round {
+  border-radius: 8px;
+}
+div.app main img.square {
+  border-radius: 0px;
+}
+div.app main .input {
+  cursor: pointer;
+  height: 2.5rem;
+  border: 2px solid #d5dbdf;
+  transition: 0.3s ease-in-out;
+  border-radius: 6px;
+  padding: 0 1rem;
+}
+div.app main .input:hover, div.app main .input:focus {
+  border: 2px solid #b8bbbd;
+}
+div.app main textarea.input {
+  height: 7.5rem;
+  resize: vertical;
+  padding-top: 0.5rem;
+}
+div.app main div.input__hero__label {
+  position: relative;
+}
+div.app main div.input__hero__label label {
+  position: absolute;
+  font-size: 0.95rem;
+  transform: translate(0, -50%);
+  top: 50%;
+  left: 1.2rem;
+  color: #5e5e5e;
+  padding: 0 0.25rem;
+  transition: 0.1s ease-in;
+}
+div.app main div.input__hero__label .input:focus ~ label,
+div.app main div.input__hero__label .input:not(:placeholder-shown) ~ label {
+  top: 2px;
+  font-size: 0.75rem;
+  background-color: white;
+  left: 1rem;
+}
+div.app main .pub {
+  cursor: pointer;
+  font-weight: 400;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+  background-color: #e7002a;
+  text-align: center;
+  padding: 4px;
+  min-width: 10vw;
+  font-size: 90%;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+div.app main .pub:hover {
+  box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.5);
+}
+div.app main .pub i {
+  line-height: 2.3rem;
+}
+div.app main .pub i.high {
+  font-size: 1.35rem;
+}
+div.app main .pub span {
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 100px;
+  height: 100px;
+  animation: ripple 1s;
+  opacity: 0;
+  transform: scale(1);
+}
+div.app main .pub.only__border {
+  border: 2px solid #e7002a;
+  background: none;
+  color: black;
+}
+div.app main .pub.min {
+  min-width: 0;
+}
+div.app main .pub.no__shadow {
+  box-shadow: none;
+}
+div.app main .pub.rounded {
+  border-radius: 10rem;
+}
+div.app main .pub.rounded.circle {
+  width: 2.5rem;
+  height: 2.5rem;
 }
 div.app main div.card {
-  width: 50%;
   height: auto;
   background-color: white;
   overflow: hidden;
@@ -321,15 +463,6 @@ div.app main div.card div.pad header img {
   width: 3rem;
   height: 3rem;
   margin-right: 0.5rem;
-}
-div.app main div.card div.pad header img.rounded {
-  border-radius: 100%;
-}
-div.app main div.card div.pad header img.square__round {
-  border-radius: 8px;
-}
-div.app main div.card div.pad header img.square {
-  border-radius: 0px;
 }
 div.app main div.card div.pad p.text {
   margin-top: 1rem;
