@@ -38,6 +38,9 @@ div.app {
   color: white;
 }
 
+div.app a {
+  text-decoration: none;
+}
 div.app nav {
   background-color: white;
 }
@@ -71,6 +74,7 @@ div.app nav.top__menu ul a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-size: 0.95rem;
 }
 div.app nav.left__menu {
   width: 15em;
@@ -156,6 +160,10 @@ div.app main .h-33 {
 div.app main .h-66 {
   height: 66.66%;
 }
+div.app main .flex__row {
+  display: flex;
+  flex-direction: row;
+}
 div.app main .flex__column {
   display: flex;
   flex-direction: column;
@@ -168,7 +176,7 @@ div.app main .flex__justify__center {
 }
 div.app main .grid {
   display: grid;
-  gap: 0.5rem;
+  gap: 0.75rem;
 }
 div.app main .grid.grid__1 {
   grid-template-columns: 1fr;

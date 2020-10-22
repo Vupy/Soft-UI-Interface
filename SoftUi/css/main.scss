@@ -53,6 +53,10 @@ div.app {
 }
 
 div.app {
+    a{
+        text-decoration: none;
+    }
+
     nav {
         background-color: white;
 
@@ -88,6 +92,7 @@ div.app {
                     flex-direction: row;
                     justify-content: space-between;
                     align-items: center;
+                    font-size: .95rem;
                 }
             }
         }
@@ -197,6 +202,11 @@ div.app {
             height: 66.66%;
         }
 
+        .flex__row {
+            display: flex;
+            flex-direction: row;
+        }
+
         .flex__column {
             display: flex;
             flex-direction: column;
@@ -212,7 +222,7 @@ div.app {
 
         .grid {
             display: grid;
-            gap: .5rem;
+            gap: .75rem;
 
             &.grid__1 {
                 grid-template-columns: 1fr;
