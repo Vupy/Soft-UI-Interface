@@ -84,7 +84,7 @@ div.app .pub span {
 div.app .pub.only__border {
   border: 2px solid #e7002a;
   background: none;
-  color: black;
+  color: #e7002a;
 }
 div.app .pub.min {
   min-width: 0;
