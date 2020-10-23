@@ -41,6 +41,64 @@ div.app {
 div.app a {
   text-decoration: none;
 }
+div.app .pub {
+  cursor: pointer;
+  font-weight: 400;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+  background-color: #e7002a;
+  text-align: center;
+  padding: 4px;
+  min-width: 10vw;
+  font-size: 90%;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+div.app .pub:hover {
+  box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.5);
+}
+div.app .pub i {
+  line-height: 2.3rem;
+}
+div.app .pub i.high {
+  font-size: 1.35rem;
+}
+div.app .pub span {
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 100px;
+  height: 100px;
+  animation: ripple 1s;
+  opacity: 0;
+  transform: scale(1);
+}
+div.app .pub.only__border {
+  border: 2px solid #e7002a;
+  background: none;
+  color: black;
+}
+div.app .pub.min {
+  min-width: 0;
+}
+div.app .pub.no__shadow {
+  box-shadow: none;
+}
+div.app .pub.rounded {
+  border-radius: 10rem;
+}
+div.app .pub.rounded.circle {
+  width: 2.5rem;
+  height: 2.5rem;
+}
 div.app nav {
   background-color: white;
 }
@@ -50,7 +108,7 @@ div.app nav.top__menu {
   display: flex;
   position: fixed;
   padding: 0 0.5rem;
-  box-shadow: 0px 0px 5px 0 rgba(89, 49, 56, 0.2), 0px 0px 7px 0 rgba(89, 49, 56, 0.1), 0px 0px 9px 0 rgba(89, 49, 56, 0.1);
+  box-shadow: 0px 0px 5px 0 rgba(90, 61, 66, 0.1), 0px 0px 7px -1px rgba(89, 49, 56, 0.05), 0px 0px 9px -1px rgba(89, 49, 56, 0.05);
   z-index: 10;
   top: 0;
   transition: 0.3s ease-in-out;
@@ -83,7 +141,7 @@ div.app nav.left__menu {
   flex-direction: column;
   position: fixed;
   padding: 1rem 1.5rem;
-  box-shadow: 0px 0px 5px 0 rgba(89, 49, 56, 0.2), 0px 0px 7px 0 rgba(89, 49, 56, 0.1), 0px 0px 9px 0 rgba(89, 49, 56, 0.1);
+  box-shadow: 0px 0px 5px 0 rgba(90, 61, 66, 0.1), 0px 0px 7px -1px rgba(89, 49, 56, 0.05), 0px 0px 9px -1px rgba(89, 49, 56, 0.05);
   z-index: 10;
   top: 0;
   transition: 0.3s ease-in-out;
@@ -350,64 +408,6 @@ div.app main div.input__hero__label .input:not(:placeholder-shown) ~ label {
   font-size: 0.75rem;
   background-color: white;
   left: 1rem;
-}
-div.app main .pub {
-  cursor: pointer;
-  font-weight: 400;
-  border-radius: 4px;
-  transition: 0.3s ease-in-out;
-  background-color: #e7002a;
-  text-align: center;
-  padding: 4px;
-  min-width: 10vw;
-  font-size: 90%;
-  color: #ffffff;
-  position: relative;
-  overflow: hidden;
-  border: 2px solid transparent;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
-}
-div.app main .pub:hover {
-  box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.5);
-}
-div.app main .pub i {
-  line-height: 2.3rem;
-}
-div.app main .pub i.high {
-  font-size: 1.35rem;
-}
-div.app main .pub span {
-  display: block;
-  position: absolute;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.2);
-  width: 100px;
-  height: 100px;
-  animation: ripple 1s;
-  opacity: 0;
-  transform: scale(1);
-}
-div.app main .pub.only__border {
-  border: 2px solid #e7002a;
-  background: none;
-  color: black;
-}
-div.app main .pub.min {
-  min-width: 0;
-}
-div.app main .pub.no__shadow {
-  box-shadow: none;
-}
-div.app main .pub.rounded {
-  border-radius: 10rem;
-}
-div.app main .pub.rounded.circle {
-  width: 2.5rem;
-  height: 2.5rem;
 }
 div.app main div.card {
   height: auto;
