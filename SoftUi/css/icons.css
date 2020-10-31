@@ -1,0 +1,465 @@
+@font-face {
+  font-family: 'Vupy-icons';
+  src:  url('fonts/Vupy-icons.eot?mq7nqm');
+  src:  url('fonts/Vupy-icons.eot?mq7nqm#iefix') format('embedded-opentype'),
+    url('fonts/Vupy-icons.ttf?mq7nqm') format('truetype'),
+    url('fonts/Vupy-icons.woff?mq7nqm') format('woff'),
+    url('fonts/Vupy-icons.svg?mq7nqm#Vupy-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="vi-"], [class*=" vi-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Vupy-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.vi-box-pen:before {
+  content: "\e900";
+}
+.vi-broke-heart:before {
+  content: "\e901";
+}
+.vi-caution-circle:before {
+  content: "\e902";
+}
+.vi-caution-triangle:before {
+  content: "\e903";
+}
+.vi-chevron-down:before {
+  content: "\e904";
+}
+.vi-chevron-left:before {
+  content: "\e905";
+}
+.vi-chevron-right:before {
+  content: "\e906";
+}
+.vi-chevrons-down:before {
+  content: "\e907";
+}
+.vi-chevrons-left:before {
+  content: "\e908";
+}
+.vi-chevrons-right:before {
+  content: "\e909";
+}
+.vi-chevrons-up:before {
+  content: "\e90a";
+}
+.vi-chevron-up:before {
+  content: "\e90b";
+}
+.vi-circle-ban-message:before {
+  content: "\e90c";
+}
+.vi-circle-dots-message:before {
+  content: "\e90d";
+}
+.vi-circle-dots-message-1:before {
+  content: "\e90e";
+}
+.vi-circle-message:before {
+  content: "\e90f";
+}
+.vi-circle-x-message:before {
+  content: "\e910";
+}
+.vi-code:before {
+  content: "\e911";
+}
+.vi-code-tag:before {
+  content: "\e912";
+}
+.vi-compass-30:before {
+  content: "\e913";
+}
+.vi-compass-90:before {
+  content: "\e914";
+}
+.vi-compass-120:before {
+  content: "\e915";
+}
+.vi-config:before {
+  content: "\e916";
+}
+.vi-download:before {
+  content: "\e917";
+}
+.vi-group:before {
+  content: "\e918";
+}
+.vi-heart:before {
+  content: "\e919";
+}
+.vi-info-circle:before {
+  content: "\e91a";
+}
+.vi-info-triangle:before {
+  content: "\e91b";
+}
+.vi-login:before {
+  content: "\e91c";
+}
+.vi-logout:before {
+  content: "\e91d";
+}
+.vi-menu:before {
+  content: "\e91e";
+}
+.vi-minus:before {
+  content: "\e91f";
+}
+.vi-more-horizontal:before {
+  content: "\e920";
+}
+.vi-more-vertical:before {
+  content: "\e921";
+}
+.vi-no-bell:before {
+  content: "\e922";
+}
+.vi-pen:before {
+  content: "\e923";
+}
+.vi-plus:before {
+  content: "\e924";
+}
+.vi-question-circle:before {
+  content: "\e925";
+}
+.vi-question-triangle:before {
+  content: "\e926";
+}
+.vi-right-box-pen:before {
+  content: "\e927";
+}
+.vi-right-circle-ban-message:before {
+  content: "\e928";
+}
+.vi-right-circle-message:before {
+  content: "\e929";
+}
+.vi-right-circle-x-message:before {
+  content: "\e92a";
+}
+.vi-right-pen:before {
+  content: "\e92b";
+}
+.vi-right-send:before {
+  content: "\e92c";
+}
+.vi-right-square-ban-message:before {
+  content: "\e92d";
+}
+.vi-right-square-dots-message:before {
+  content: "\e92e";
+}
+.vi-right-square-message:before {
+  content: "\e92f";
+}
+.vi-right-square-x-message:before {
+  content: "\e930";
+}
+.vi-right-write-pen:before {
+  content: "\e931";
+}
+.vi-send:before {
+  content: "\e932";
+}
+.vi-share:before {
+  content: "\e933";
+}
+.vi-share-unlined:before {
+  content: "\e934";
+}
+.vi-square-ban-message:before {
+  content: "\e935";
+}
+.vi-square-dots-message:before {
+  content: "\e936";
+}
+.vi-square-message:before {
+  content: "\e937";
+}
+.vi-square-x-message:before {
+  content: "\e938";
+}
+.vi-upload:before {
+  content: "\e939";
+}
+.vi-user:before {
+  content: "\e93a";
+}
+.vi-user-ban:before {
+  content: "\e93b";
+}
+.vi-user-circle:before {
+  content: "\e93c";
+}
+.vi-user-minus:before {
+  content: "\e93d";
+}
+.vi-user-plus:before {
+  content: "\e93e";
+}
+.vi-users:before {
+  content: "\e93f";
+}
+.vi-user-x:before {
+  content: "\e940";
+}
+.vi-write-pen:before {
+  content: "\e941";
+}
+.vi-x:before {
+  content: "\e942";
+}
+.vi-arrow-down:before {
+  content: "\e943";
+}
+.vi-arrow-left:before {
+  content: "\e944";
+}
+.vi-arrow-right:before {
+  content: "\e945";
+}
+.vi-arrow-up:before {
+  content: "\e946";
+}
+.vi-ban:before {
+  content: "\e947";
+}
+.vi-bell:before {
+  content: "\e948";
+}
+.vi-fill-bell:before {
+  content: "\e949";
+}
+.vi-fill-box-pen:before {
+  content: "\e94a";
+}
+.vi-fill-broke-heart:before {
+  content: "\e94b";
+}
+.vi-fill-caution-circle:before {
+  content: "\e94c";
+}
+.vi-fill-caution-triangle:before {
+  content: "\e94d";
+}
+.vi-fill-chevron-down:before {
+  content: "\e94e";
+}
+.vi-fill-chevron-left:before {
+  content: "\e94f";
+}
+.vi-fill-chevron-right:before {
+  content: "\e950";
+}
+.vi-fill-chevrons-down:before {
+  content: "\e951";
+}
+.vi-fill-chevrons-left:before {
+  content: "\e952";
+}
+.vi-fill-chevrons-right:before {
+  content: "\e953";
+}
+.vi-fill-chevrons-up:before {
+  content: "\e954";
+}
+.vi-fill-chevron-up:before {
+  content: "\e955";
+}
+.vi-fill-circle-ban-message:before {
+  content: "\e956";
+}
+.vi-fill-circle-dots-message:before {
+  content: "\e957";
+}
+.vi-fill-circle-dots-message-1:before {
+  content: "\e958";
+}
+.vi-fill-circle-message:before {
+  content: "\e959";
+}
+.vi-fill-circle-x-message:before {
+  content: "\e95a";
+}
+.vi-fill-code:before {
+  content: "\e95b";
+}
+.vi-fill-code-tag:before {
+  content: "\e95c";
+}
+.vi-fill-compass-30:before {
+  content: "\e95d";
+}
+.vi-fill-compass-90:before {
+  content: "\e95e";
+}
+.vi-fill-compass-120:before {
+  content: "\e95f";
+}
+.vi-fill-config:before {
+  content: "\e960";
+}
+.vi-fill-download:before {
+  content: "\e961";
+}
+.vi-fill-group:before {
+  content: "\e962";
+}
+.vi-fill-heart:before {
+  content: "\e963";
+}
+.vi-fill-info-circle:before {
+  content: "\e964";
+}
+.vi-fill-info-triangle:before {
+  content: "\e965";
+}
+.vi-fill-login:before {
+  content: "\e966";
+}
+.vi-fill-logout:before {
+  content: "\e967";
+}
+.vi-fill-menu:before {
+  content: "\e968";
+}
+.vi-fill-minus:before {
+  content: "\e969";
+}
+.vi-fill-more-horizontal:before {
+  content: "\e96a";
+}
+.vi-fill-more-vertical:before {
+  content: "\e96b";
+}
+.vi-fill-no-bell:before {
+  content: "\e96c";
+}
+.vi-fill-pen:before {
+  content: "\e96d";
+}
+.vi-fill-plus:before {
+  content: "\e96e";
+}
+.vi-fill-question-circle:before {
+  content: "\e96f";
+}
+.vi-fill-question-triangle:before {
+  content: "\e970";
+}
+.vi-fill-right-box-pen:before {
+  content: "\e971";
+}
+.vi-fill-right-circle-ban-message:before {
+  content: "\e972";
+}
+.vi-fill-right-circle-message:before {
+  content: "\e973";
+}
+.vi-fill-right-circle-x-message:before {
+  content: "\e974";
+}
+.vi-fill-right-pen:before {
+  content: "\e975";
+}
+.vi-fill-right-send:before {
+  content: "\e976";
+}
+.vi-fill-right-square-ban-message:before {
+  content: "\e977";
+}
+.vi-fill-right-square-dots-message:before {
+  content: "\e978";
+}
+.vi-fill-right-square-message:before {
+  content: "\e979";
+}
+.vi-fill-right-square-x-message:before {
+  content: "\e97a";
+}
+.vi-fill-right-write-pen:before {
+  content: "\e97b";
+}
+.vi-fill-send:before {
+  content: "\e97c";
+}
+.vi-fill-share:before {
+  content: "\e97d";
+}
+.vi-fill-share-unlined:before {
+  content: "\e97e";
+}
+.vi-fill-square-ban-message:before {
+  content: "\e97f";
+}
+.vi-fill-square-dots-message:before {
+  content: "\e980";
+}
+.vi-fill-square-message:before {
+  content: "\e981";
+}
+.vi-fill-square-x-message:before {
+  content: "\e982";
+}
+.vi-fill-upload:before {
+  content: "\e983";
+}
+.vi-fill-user:before {
+  content: "\e984";
+}
+.vi-fill-user-ban:before {
+  content: "\e985";
+}
+.vi-fill-user-circle:before {
+  content: "\e986";
+}
+.vi-fill-user-minus:before {
+  content: "\e987";
+}
+.vi-fill-user-plus:before {
+  content: "\e988";
+}
+.vi-fill-users:before {
+  content: "\e989";
+}
+.vi-fill-user-x:before {
+  content: "\e98a";
+}
+.vi-fill-write-pen:before {
+  content: "\e98b";
+}
+.vi-fill-x:before {
+  content: "\e98c";
+}
+.vi-fill-arrow-down:before {
+  content: "\e98d";
+}
+.vi-fill-arrow-left:before {
+  content: "\e98e";
+}
+.vi-fill-arrow-right:before {
+  content: "\e98f";
+}
+.vi-fill-arrow-up:before {
+  content: "\e990";
+}
+.vi-fill-ban:before {
+  content: "\e991";
+}
