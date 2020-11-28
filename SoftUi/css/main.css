@@ -503,10 +503,10 @@ div.app {
 div.app.font__nunito {
   width: 100%;
   height: 100%;
-  font-family: "Nunito", Helvetica, Arial, sans-serif !important;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
 }
 div.app.font__nunito * {
-  font-family: "Nunito", Helvetica, Arial, sans-serif !important;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
 }
 
 .sur__color__red {
