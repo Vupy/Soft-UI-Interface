@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 div.app main .w-100 {
   width: 100%;
 }
@@ -497,6 +498,15 @@ body,
 div.app {
   width: 100%;
   height: 100%;
+}
+
+div.app.font__nunito {
+  width: 100%;
+  height: 100%;
+  font-family: "Nunito", Helvetica, Arial, sans-serif !important;
+}
+div.app.font__nunito * {
+  font-family: "Nunito", Helvetica, Arial, sans-serif !important;
 }
 
 .sur__color__red {
