@@ -204,6 +204,15 @@ div.app .padt-auto {
 div.app .padt-0 {
   padding-top: 0rem;
 }
+div.app .padt-025 {
+  padding-top: 0.25rem;
+}
+div.app .padt-050 {
+  padding-top: 0.5rem;
+}
+div.app .padt-075 {
+  padding-top: 0.75rem;
+}
 div.app .padt-1 {
   padding-top: 1rem;
 }
@@ -221,6 +230,15 @@ div.app .padl-auto {
 }
 div.app .padl-0 {
   padding-left: 0rem;
+}
+div.app .padl-025 {
+  padding-left: 0.25rem;
+}
+div.app .padl-050 {
+  padding-left: 0.5rem;
+}
+div.app .padl-075 {
+  padding-left: 0.75rem;
 }
 div.app .padl-1 {
   padding-left: 1rem;
@@ -240,6 +258,15 @@ div.app .padr-auto {
 div.app .padr-0 {
   padding-right: 0rem;
 }
+div.app .padr-025 {
+  padding-right: 0.25rem;
+}
+div.app .padr-075 {
+  padding-right: 0.75rem;
+}
+div.app .padr-050 {
+  padding-right: 0.5rem;
+}
 div.app .padr-1 {
   padding-right: 1rem;
 }
@@ -257,6 +284,15 @@ div.app .padb-auto {
 }
 div.app .padb-0 {
   padding-bottom: 0rem;
+}
+div.app .padb-025 {
+  padding-bottom: 0.25rem;
+}
+div.app .padb-050 {
+  padding-bottom: 0.5rem;
+}
+div.app .padb-075 {
+  padding-bottom: 0.75rem;
 }
 div.app .padb-1 {
   padding-bottom: 1rem;
@@ -277,6 +313,18 @@ div.app .padh-auto {
 div.app .padh-0 {
   padding-left: 0rem;
   padding-right: 0rem;
+}
+div.app .padh-025 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+div.app .padh-050 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+div.app .padh-075 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 div.app .padh-1 {
   padding-left: 1rem;
@@ -302,6 +350,18 @@ div.app .padv-0 {
   padding-top: 0rem;
   padding-bottom: 0rem;
 }
+div.app .padv-025 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+div.app .padv-050 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+div.app .padv-075 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
 div.app .padv-1 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -324,6 +384,15 @@ div.app .pad-auto {
 div.app .pad-0 {
   padding: 0rem;
 }
+div.app .pad-025 {
+  padding: 0.25rem;
+}
+div.app .pad-050 {
+  padding: 0.5rem;
+}
+div.app .pad-075 {
+  padding: 0.75rem;
+}
 div.app .pad-1 {
   padding: 1rem;
 }
@@ -341,6 +410,15 @@ div.app .mart-auto {
 }
 div.app .mart-0 {
   margin-top: 0rem;
+}
+div.app .mart-025 {
+  margin-top: 0.25rem;
+}
+div.app .mart-050 {
+  margin-top: 0.5rem;
+}
+div.app .mart-075 {
+  margin-top: 0.75rem;
 }
 div.app .mart-1 {
   margin-top: 1rem;
@@ -360,6 +438,15 @@ div.app .marl-auto {
 div.app .marl-0 {
   margin-left: 0rem;
 }
+div.app .marl-025 {
+  margin-left: 0.25rem;
+}
+div.app .marl-050 {
+  margin-left: 0.5rem;
+}
+div.app .marl-075 {
+  margin-left: 0.75rem;
+}
 div.app .marl-1 {
   margin-left: 1rem;
 }
@@ -378,6 +465,15 @@ div.app .marr-auto {
 div.app .marr-0 {
   margin-right: 0rem;
 }
+div.app .marr-025 {
+  margin-right: 0.25rem;
+}
+div.app .marr-075 {
+  margin-right: 0.75rem;
+}
+div.app .marr-050 {
+  margin-right: 0.5rem;
+}
 div.app .marr-1 {
   margin-right: 1rem;
 }
@@ -395,6 +491,15 @@ div.app .marb-auto {
 }
 div.app .marb-0 {
   margin-bottom: 0rem;
+}
+div.app .marb-025 {
+  margin-bottom: 0.25rem;
+}
+div.app .marb-050 {
+  margin-bottom: 0.5rem;
+}
+div.app .marb-075 {
+  margin-bottom: 0.75rem;
 }
 div.app .marb-1 {
   margin-bottom: 1rem;
@@ -415,6 +520,18 @@ div.app .marh-auto {
 div.app .marh-0 {
   margin-left: 0rem;
   margin-right: 0rem;
+}
+div.app .marh-025 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+div.app .marh-050 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+div.app .marh-075 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 div.app .marh-1 {
   margin-left: 1rem;
@@ -440,6 +557,18 @@ div.app .marv-0 {
   margin-top: 0rem;
   margin-bottom: 0rem;
 }
+div.app .marv-025 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+div.app .marv-050 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+div.app .marv-075 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
 div.app .marv-1 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -461,6 +590,15 @@ div.app .mar-auto {
 }
 div.app .mar-0 {
   margin: 0rem;
+}
+div.app .mar-025 {
+  margin: 0.25rem;
+}
+div.app .mar-050 {
+  margin: 0.5rem;
+}
+div.app .mar-075 {
+  margin: 0.75rem;
 }
 div.app .mar-1 {
   margin: 1rem;
