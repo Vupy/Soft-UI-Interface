@@ -197,85 +197,281 @@ div.app main .grid .grid__span__row_8 {
   grid-row: span 8;
 }
 
+div.app .padt-auto {
+  padding-top: auto;
+}
+div.app .padt-0 {
+  padding-top: 0rem;
+}
 div.app .padt-1 {
-  margin-top: 1rem;
+  padding-top: 1rem;
 }
 div.app .padt-2 {
-  margin-top: 2rem;
+  padding-top: 2rem;
 }
 div.app .padt-3 {
-  margin-top: 3rem;
+  padding-top: 3rem;
 }
 div.app .padt-4 {
-  margin-top: 4rem;
+  padding-top: 4rem;
+}
+div.app .padl-auto {
+  padding-left: auto;
+}
+div.app .padl-0 {
+  padding-left: 0rem;
 }
 div.app .padl-1 {
-  margin-left: 1rem;
+  padding-left: 1rem;
 }
 div.app .padl-2 {
-  margin-left: 2rem;
+  padding-left: 2rem;
 }
 div.app .padl-3 {
-  margin-left: 3rem;
+  padding-left: 3rem;
 }
 div.app .padl-4 {
-  margin-left: 4rem;
+  padding-left: 4rem;
+}
+div.app .padr-auto {
+  padding-right: auto;
+}
+div.app .padr-0 {
+  padding-right: 0rem;
 }
 div.app .padr-1 {
-  margin-right: 1rem;
+  padding-right: 1rem;
 }
 div.app .padr-2 {
-  margin-right: 2rem;
+  padding-right: 2rem;
 }
 div.app .padr-3 {
-  margin-right: 3rem;
+  padding-right: 3rem;
 }
 div.app .padr-4 {
-  margin-right: 4rem;
+  padding-right: 4rem;
+}
+div.app .padb-auto {
+  padding-bottom: auto;
+}
+div.app .padb-0 {
+  padding-bottom: 0rem;
 }
 div.app .padb-1 {
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 div.app .padb-2 {
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 div.app .padb-3 {
-  margin-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 div.app .padb-4 {
-  margin-bottom: 4rem;
+  padding-bottom: 4rem;
+}
+div.app .padh-auto {
+  padding-left: auto;
+  padding-right: auto;
+}
+div.app .padh-0 {
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
 div.app .padh-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+div.app .padh-2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+div.app .padh-3 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+div.app .padh-4 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+div.app .padv-auto {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+div.app .padv-0 {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+div.app .padv-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+div.app .padv-2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+div.app .padv-3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+div.app .padv-4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+div.app .pad-auto {
+  padding: auto;
+}
+div.app .pad-0 {
+  padding: 0rem;
+}
+div.app .pad-1 {
+  padding: 1rem;
+}
+div.app .pad-2 {
+  padding: 2rem;
+}
+div.app .pad-3 {
+  padding: 3rem;
+}
+div.app .pad-4 {
+  padding: 4rem;
+}
+div.app .mart-auto {
+  margin-top: auto;
+}
+div.app .mart-0 {
+  margin-top: 0rem;
+}
+div.app .mart-1 {
+  margin-top: 1rem;
+}
+div.app .mart-2 {
+  margin-top: 2rem;
+}
+div.app .mart-3 {
+  margin-top: 3rem;
+}
+div.app .mart-4 {
+  margin-top: 4rem;
+}
+div.app .marl-auto {
+  margin-left: auto;
+}
+div.app .marl-0 {
+  margin-left: 0rem;
+}
+div.app .marl-1 {
+  margin-left: 1rem;
+}
+div.app .marl-2 {
+  margin-left: 2rem;
+}
+div.app .marl-3 {
+  margin-left: 3rem;
+}
+div.app .marl-4 {
+  margin-left: 4rem;
+}
+div.app .marr-auto {
+  margin-right: auto;
+}
+div.app .marr-0 {
+  margin-right: 0rem;
+}
+div.app .marr-1 {
+  margin-right: 1rem;
+}
+div.app .marr-2 {
+  margin-right: 2rem;
+}
+div.app .marr-3 {
+  margin-right: 3rem;
+}
+div.app .marr-4 {
+  margin-right: 4rem;
+}
+div.app .marb-auto {
+  margin-bottom: auto;
+}
+div.app .marb-0 {
+  margin-bottom: 0rem;
+}
+div.app .marb-1 {
+  margin-bottom: 1rem;
+}
+div.app .marb-2 {
+  margin-bottom: 2rem;
+}
+div.app .marb-3 {
+  margin-bottom: 3rem;
+}
+div.app .marb-4 {
+  margin-bottom: 4rem;
+}
+div.app .marh-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+div.app .marh-0 {
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+div.app .marh-1 {
   margin-left: 1rem;
   margin-right: 1rem;
 }
-div.app .padh-2 {
+div.app .marh-2 {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-div.app .padh-3 {
+div.app .marh-3 {
   margin-left: 3rem;
   margin-right: 3rem;
 }
-div.app .padh-4 {
+div.app .marh-4 {
   margin-left: 4rem;
   margin-right: 4rem;
 }
-div.app .padv-1 {
+div.app .marv-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+div.app .marv-0 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+div.app .marv-1 {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-div.app .padv-2 {
+div.app .marv-2 {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-div.app .padv-3 {
+div.app .marv-3 {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
-div.app .padv-4 {
+div.app .marv-4 {
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+div.app .mar-auto {
+  margin: auto;
+}
+div.app .mar-0 {
+  margin: 0rem;
+}
+div.app .mar-1 {
+  margin: 1rem;
+}
+div.app .mar-2 {
+  margin: 2rem;
+}
+div.app .mar-3 {
+  margin: 3rem;
+}
+div.app .mar-4 {
+  margin: 4rem;
 }
 
 * {

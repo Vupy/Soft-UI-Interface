@@ -1,105 +1,361 @@
 div.app {
+    .padt-auto {
+        padding-top: auto;
+    }
+
+    .padt-0 {
+        padding-top: 0rem;
+    }
+
     .padt-1 {
-        margin-top: 1rem;
+        padding-top: 1rem;
     }
 
     .padt-2 {
-        margin-top: 2rem;
+        padding-top: 2rem;
     }
 
     .padt-3 {
-        margin-top: 3rem;
+        padding-top: 3rem;
     }
 
     .padt-4 {
-        margin-top: 4rem;
+        padding-top: 4rem;
+    }
+
+    .padl-auto {
+        padding-left: auto;
+    }
+
+    .padl-0 {
+        padding-left: 0rem;
     }
 
     .padl-1 {
-        margin-left: 1rem;
+        padding-left: 1rem;
     }
 
     .padl-2 {
-        margin-left: 2rem;
+        padding-left: 2rem;
     }
 
     .padl-3 {
-        margin-left: 3rem;
+        padding-left: 3rem;
     }
 
     .padl-4 {
-        margin-left: 4rem;
+        padding-left: 4rem;
+    }
+
+    .padr-auto {
+        padding-right: auto;
+    }
+
+    .padr-0 {
+        padding-right: 0rem;
     }
 
     .padr-1 {
-        margin-right: 1rem;
+        padding-right: 1rem;
     }
 
     .padr-2 {
-        margin-right: 2rem;
+        padding-right: 2rem;
     }
 
     .padr-3 {
-        margin-right: 3rem;
+        padding-right: 3rem;
     }
 
     .padr-4 {
-        margin-right: 4rem;
+        padding-right: 4rem;
+    }
+
+    .padb-auto {
+        padding-bottom: auto;
+    }
+
+    .padb-0 {
+        padding-bottom: 0rem;
     }
 
     .padb-1 {
-        margin-bottom: 1rem;
+        padding-bottom: 1rem;
     }
 
     .padb-2 {
-        margin-bottom: 2rem;
+        padding-bottom: 2rem;
     }
 
     .padb-3 {
-        margin-bottom: 3rem;
+        padding-bottom: 3rem;
     }
 
     .padb-4 {
-        margin-bottom: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .padh-auto {
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    .padh-0 {
+        padding-left: 0rem;
+        padding-right: 0rem;
     }
 
     .padh-1 {
-        margin-left: 1rem;
-        margin-right: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .padh-2 {
-        margin-left: 2rem;
-        margin-right: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     .padh-3 {
-        margin-left: 3rem;
-        margin-right: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
 
     .padh-4 {
-        margin-left: 4rem;
-        margin-right: 4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .padv-auto {
+        padding-top: auto;
+        padding-bottom: auto;
+    }
+
+    .padv-0 {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
     }
 
     .padv-1 {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
     .padv-2 {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 
     .padv-3 {
-        margin-top: 3rem;
-        margin-bottom: 3rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 
     .padv-4 {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .pad-auto {
+        padding: auto;
+    }
+
+    .pad-0 {
+        padding: 0rem;
+    }
+
+    .pad-1 {
+        padding: 1rem;
+    }
+
+    .pad-2 {
+        padding: 2rem;
+    }
+
+    .pad-3 {
+        padding: 3rem;
+    }
+
+    .pad-4 {
+        padding: 4rem;
+    }
+
+    .mart-auto {
+        margin-top: auto;
+    }
+    
+    .mart-0 {
+        margin-top: 0rem;
+    }
+    
+    .mart-1 {
+        margin-top: 1rem;
+    }
+    
+    .mart-2 {
+        margin-top: 2rem;
+    }
+    
+    .mart-3 {
+        margin-top: 3rem;
+    }
+    
+    .mart-4 {
+        margin-top: 4rem;
+    }
+    
+    .marl-auto {
+        margin-left: auto;
+    }
+    
+    .marl-0 {
+        margin-left: 0rem;
+    }
+    
+    .marl-1 {
+        margin-left: 1rem;
+    }
+    
+    .marl-2 {
+        margin-left: 2rem;
+    }
+    
+    .marl-3 {
+        margin-left: 3rem;
+    }
+    
+    .marl-4 {
+        margin-left: 4rem;
+    }
+    
+    .marr-auto {
+        margin-right: auto;
+    }
+    
+    .marr-0 {
+        margin-right: 0rem;
+    }
+    
+    .marr-1 {
+        margin-right: 1rem;
+    }
+    
+    .marr-2 {
+        margin-right: 2rem;
+    }
+    
+    .marr-3 {
+        margin-right: 3rem;
+    }
+    
+    .marr-4 {
+        margin-right: 4rem;
+    }
+    
+    .marb-auto {
+        margin-bottom: auto;
+    }
+    
+    .marb-0 {
+        margin-bottom: 0rem;
+    }
+    
+    .marb-1 {
+        margin-bottom: 1rem;
+    }
+    
+    .marb-2 {
+        margin-bottom: 2rem;
+    }
+    
+    .marb-3 {
+        margin-bottom: 3rem;
+    }
+    
+    .marb-4 {
+        margin-bottom: 4rem;
+    }
+    
+    .marh-auto {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .marh-0 {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    
+    .marh-1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .marh-2 {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    .marh-3 {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    
+    .marh-4 {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    
+    .marv-auto {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    .marv-0 {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    
+    .marv-1 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .marv-2 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .marv-3 {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    
+    .marv-4 {
         margin-top: 4rem;
         margin-bottom: 4rem;
+    }
+    
+    .mar-auto {
+        margin: auto;
+    }
+    
+    .mar-0 {
+        margin: 0rem;
+    }
+    
+    .mar-1 {
+        margin: 1rem;
+    }
+    
+    .mar-2 {
+        margin: 2rem;
+    }
+    
+    .mar-3 {
+        margin: 3rem;
+    }
+    
+    .mar-4 {
+        margin: 4rem;
     }
 }
