@@ -688,10 +688,10 @@ div.app .pub {
 div.app .pub:hover {
   box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.5);
 }
-div.app .pub i {
+div.app .pub i.sized {
   line-height: 2.3rem;
 }
-div.app .pub i.high {
+div.app .pub i.sized.high {
   font-size: 1.35rem;
 }
 div.app .pub span {
@@ -757,6 +757,9 @@ div.app nav.top__menu ul a {
   justify-content: space-between;
   align-items: center;
   font-size: 0.95rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 div.app nav.left__menu {
   width: 15em;
@@ -804,7 +807,7 @@ div.app nav .logo img {
   border-radius: 6px;
 }
 div.app main {
-  padding-top: 4.5rem;
+  padding-top: 4rem;
 }
 div.app main img.rounded {
   border-radius: 100%;

@@ -100,7 +100,7 @@ div.app {
             box-shadow: 0 0 4px -1px rgba(0, 0, 0, .5);
         }
 
-        i {
+        i.sized {
             line-height: 2.3rem;
 
             &.high {
@@ -180,6 +180,9 @@ div.app {
                     justify-content: space-between;
                     align-items: center;
                     font-size: .95rem;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
                 }
             }
         }
@@ -239,9 +242,9 @@ div.app {
     }
 
     main {
-        padding-top: 4.5rem;
+        padding-top: 4rem;
 
-        img{
+        img {
             &.rounded {
                 border-radius: 100%;
             }
