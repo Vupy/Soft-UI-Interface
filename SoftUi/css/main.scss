@@ -183,6 +183,10 @@ div.app {
                     text-overflow: ellipsis;
                     white-space: nowrap;
                     overflow: hidden;
+
+                    li {
+                        padding: 0;
+                    }
                 }
             }
         }
