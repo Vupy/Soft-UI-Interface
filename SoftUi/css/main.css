@@ -761,6 +761,9 @@ div.app nav.top__menu ul a {
   white-space: nowrap;
   overflow: hidden;
 }
+div.app nav.top__menu ul a li {
+  padding: 0;
+}
 div.app nav.left__menu {
   width: 15em;
   height: 100%;
