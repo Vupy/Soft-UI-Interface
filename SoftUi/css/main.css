@@ -832,6 +832,74 @@ div.app main .input {
 div.app main .input:hover, div.app main .input:focus {
   border: 2px solid #b8bbbd;
 }
+div.app main div.input__mask label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 85%;
+  color: #303030;
+}
+div.app main div.input__mask label:hover div.mask__radio, div.app main div.input__mask label:hover div.mask__checkbox {
+  border: 2px solid #b8bbbd;
+}
+div.app main div.input__mask input[type=radio], div.app main div.input__mask input[type=checkbox] {
+  display: none !important;
+}
+div.app main div.input__mask input[type=radio]:checked ~ div.mask__radio, div.app main div.input__mask input[type=checkbox]:checked ~ div.mask__radio {
+  border-color: #e7002a;
+}
+div.app main div.input__mask input[type=radio]:checked ~ div.mask__radio::before, div.app main div.input__mask input[type=checkbox]:checked ~ div.mask__radio::before {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #e7002a;
+  position: absolute;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+div.app main div.input__mask input[type=radio]:checked ~ div.mask__checkbox, div.app main div.input__mask input[type=checkbox]:checked ~ div.mask__checkbox {
+  border-color: #e7002a;
+  background-color: #e7002a;
+}
+div.app main div.input__mask input[type=radio]:checked ~ div.mask__checkbox::before, div.app main div.input__mask input[type=checkbox]:checked ~ div.mask__checkbox::before {
+  content: "";
+  width: 0.2rem;
+  height: 0.5rem;
+  position: absolute;
+  transform: translate(-50%, -50%) rotate(45deg);
+  top: 45%;
+  left: 50%;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+div.app main div.input__mask div.mask__radio {
+  cursor: pointer;
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+  border: 2px solid #d5dbdf;
+  transition: 0.3s ease-in;
+  margin-right: 0.25rem;
+}
+div.app main div.input__mask div.mask__radio:hover {
+  border: 2px solid #b8bbbd;
+}
+div.app main div.input__mask div.mask__checkbox {
+  cursor: pointer;
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 3px;
+  border: 2px solid #d5dbdf;
+  transition: 0.3s ease-in;
+  margin-right: 0.25rem;
+}
+div.app main div.input__mask div.mask__checkbox:hover {
+  border: 2px solid #b8bbbd;
+}
 div.app main textarea.input {
   height: 7.5rem;
   resize: vertical;
@@ -844,6 +912,7 @@ div.app main div.input__hero__label label {
   position: absolute;
   font-size: 0.95rem;
   transform: translate(0, -50%);
+  pointer-events: none;
   top: 50%;
   left: 1.2rem;
   color: #5e5e5e;
