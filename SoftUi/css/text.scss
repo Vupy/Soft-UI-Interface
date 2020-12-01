@@ -1,0 +1,105 @@
+.font__nunito {
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
+}
+
+.font__source_sans_pro {
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+
+.weight__400 {
+    font-weight: 400;
+}
+
+.weight__600 {
+    font-weight: 600;
+}
+
+.weight__900 {
+    font-weight: 900;
+}
+
+.weight__200 {
+    font-weight: 100;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.under {
+    text-decoration: underline;
+}
+
+.through {
+    text-decoration: line-through;
+}
+
+.detail {
+    font-style: italic;
+    color: rgb(126, 126, 126);
+}
+
+.white__text {
+    color: #fff;
+}
+
+.black__text {
+    color: #000;
+}
+
+.red__text {
+    color: #e7002a;
+}
+
+.green__text {
+    color: rgb(33, 211, 92);
+}
+
+.blue__text {
+    color: rgb(14, 60, 175);
+}
+
+.white__text__highlight {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.black__text__highlight {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.red__text__highlight {
+    background-color: rgba(230, 0, 42, 0.4);
+}
+
+.green__text__highlight {
+    background-color: rgba(33, 211, 92, 0.4);
+}
+
+.blue__text__highlight {
+    background-color: rgba(14, 60, 175, 0.4);
+}
+
+.white__text__highlight__full {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.black__text__highlight__full {
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+}
+
+.red__text__highlight__full {
+    background-color: rgba(230, 0, 42, 1);
+    color: #fff;
+}
+
+.green__text__highlight__full {
+    background-color: rgba(33, 211, 92, 1);
+    color: #fff;
+}
+
+.blue__text__highlight__full {
+    background-color: rgba(14, 60, 175, 1);
+    color: #fff;
+}

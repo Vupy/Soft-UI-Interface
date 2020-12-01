@@ -1,6 +1,7 @@
 @use 'sizes.scss';
 @use 'layouts.scss';
 @use 'spacers.scss';
+@use 'text.scss';
 
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,300&display=swap');
@@ -69,6 +70,10 @@ div.app.font__nunito {
         background-color: #e7002a;
         color: white;
     }
+}
+
+.clickable {
+    cursor: pointer;
 }
 
 div.app {
@@ -425,8 +430,6 @@ div.app {
 
                 div.item {
                     cursor: pointer;
-                    height: 4rem;
-                    line-height: 4rem;
                     display: flex;
                     justify-content: center;
                     align-items: center;

@@ -1,4 +1,40 @@
 div.app {
+    .pad-auto {
+        padding: auto;
+    }
+
+    .pad-0 {
+        padding: 0rem;
+    }
+
+    .pad-025 {
+        padding: .25rem;
+    }
+
+    .pad-050 {
+        padding: .5rem;
+    }
+
+    .pad-075 {
+        padding: .75rem;
+    }
+
+    .pad-1 {
+        padding: 1rem;
+    }
+
+    .pad-2 {
+        padding: 2rem;
+    }
+
+    .pad-3 {
+        padding: 3rem;
+    }
+
+    .pad-4 {
+        padding: 4rem;
+    }
+
     .padt-auto {
         padding-top: auto;
     }
@@ -233,40 +269,40 @@ div.app {
         padding-bottom: 4rem;
     }
 
-    .pad-auto {
-        padding: auto;
+    .mar-auto {
+        margin: auto;
     }
-
-    .pad-0 {
-        padding: 0rem;
+    
+    .mar-0 {
+        margin: 0rem;
     }
-
-    .pad-025 {
-        padding: .25rem;
+    
+    .mar-025 {
+        margin: .25rem;
     }
-
-    .pad-050 {
-        padding: .5rem;
+    
+    .mar-050 {
+        margin: .5rem;
     }
-
-    .pad-075 {
-        padding: .75rem;
+    
+    .mar-075 {
+        margin: .75rem;
     }
-
-    .pad-1 {
-        padding: 1rem;
+    
+    .mar-1 {
+        margin: 1rem;
     }
-
-    .pad-2 {
-        padding: 2rem;
+    
+    .mar-2 {
+        margin: 2rem;
     }
-
-    .pad-3 {
-        padding: 3rem;
+    
+    .mar-3 {
+        margin: 3rem;
     }
-
-    .pad-4 {
-        padding: 4rem;
+    
+    .mar-4 {
+        margin: 4rem;
     }
 
     .mart-auto {
@@ -501,41 +537,5 @@ div.app {
     .marv-4 {
         margin-top: 4rem;
         margin-bottom: 4rem;
-    }
-    
-    .mar-auto {
-        margin: auto;
-    }
-    
-    .mar-0 {
-        margin: 0rem;
-    }
-    
-    .mar-025 {
-        margin: .25rem;
-    }
-    
-    .mar-050 {
-        margin: .5rem;
-    }
-    
-    .mar-075 {
-        margin: .75rem;
-    }
-    
-    .mar-1 {
-        margin: 1rem;
-    }
-    
-    .mar-2 {
-        margin: 2rem;
-    }
-    
-    .mar-3 {
-        margin: 3rem;
-    }
-    
-    .mar-4 {
-        margin: 4rem;
     }
 }

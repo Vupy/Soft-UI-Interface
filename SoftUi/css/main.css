@@ -198,6 +198,33 @@ div.app main .grid .grid__span__row_8 {
   grid-row: span 8;
 }
 
+div.app .pad-auto {
+  padding: auto;
+}
+div.app .pad-0 {
+  padding: 0rem;
+}
+div.app .pad-025 {
+  padding: 0.25rem;
+}
+div.app .pad-050 {
+  padding: 0.5rem;
+}
+div.app .pad-075 {
+  padding: 0.75rem;
+}
+div.app .pad-1 {
+  padding: 1rem;
+}
+div.app .pad-2 {
+  padding: 2rem;
+}
+div.app .pad-3 {
+  padding: 3rem;
+}
+div.app .pad-4 {
+  padding: 4rem;
+}
 div.app .padt-auto {
   padding-top: auto;
 }
@@ -378,32 +405,32 @@ div.app .padv-4 {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-div.app .pad-auto {
-  padding: auto;
+div.app .mar-auto {
+  margin: auto;
 }
-div.app .pad-0 {
-  padding: 0rem;
+div.app .mar-0 {
+  margin: 0rem;
 }
-div.app .pad-025 {
-  padding: 0.25rem;
+div.app .mar-025 {
+  margin: 0.25rem;
 }
-div.app .pad-050 {
-  padding: 0.5rem;
+div.app .mar-050 {
+  margin: 0.5rem;
 }
-div.app .pad-075 {
-  padding: 0.75rem;
+div.app .mar-075 {
+  margin: 0.75rem;
 }
-div.app .pad-1 {
-  padding: 1rem;
+div.app .mar-1 {
+  margin: 1rem;
 }
-div.app .pad-2 {
-  padding: 2rem;
+div.app .mar-2 {
+  margin: 2rem;
 }
-div.app .pad-3 {
-  padding: 3rem;
+div.app .mar-3 {
+  margin: 3rem;
 }
-div.app .pad-4 {
-  padding: 4rem;
+div.app .mar-4 {
+  margin: 4rem;
 }
 div.app .mart-auto {
   margin-top: auto;
@@ -585,32 +612,110 @@ div.app .marv-4 {
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
-div.app .mar-auto {
-  margin: auto;
+
+.font__nunito {
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
 }
-div.app .mar-0 {
-  margin: 0rem;
+
+.font__source_sans_pro {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 }
-div.app .mar-025 {
-  margin: 0.25rem;
+
+.weight__400 {
+  font-weight: 400;
 }
-div.app .mar-050 {
-  margin: 0.5rem;
+
+.weight__600 {
+  font-weight: 600;
 }
-div.app .mar-075 {
-  margin: 0.75rem;
+
+.weight__900 {
+  font-weight: 900;
 }
-div.app .mar-1 {
-  margin: 1rem;
+
+.weight__200 {
+  font-weight: 100;
 }
-div.app .mar-2 {
-  margin: 2rem;
+
+.italic {
+  font-style: italic;
 }
-div.app .mar-3 {
-  margin: 3rem;
+
+.under {
+  text-decoration: underline;
 }
-div.app .mar-4 {
-  margin: 4rem;
+
+.through {
+  text-decoration: line-through;
+}
+
+.detail {
+  font-style: italic;
+  color: #7e7e7e;
+}
+
+.white__text {
+  color: #fff;
+}
+
+.black__text {
+  color: #000;
+}
+
+.red__text {
+  color: #e7002a;
+}
+
+.green__text {
+  color: #21d35c;
+}
+
+.blue__text {
+  color: #0e3caf;
+}
+
+.white__text__highlight {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.black__text__highlight {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.red__text__highlight {
+  background-color: rgba(230, 0, 42, 0.4);
+}
+
+.green__text__highlight {
+  background-color: rgba(33, 211, 92, 0.4);
+}
+
+.blue__text__highlight {
+  background-color: rgba(14, 60, 175, 0.4);
+}
+
+.white__text__highlight__full {
+  background-color: white;
+}
+
+.black__text__highlight__full {
+  background-color: black;
+  color: #fff;
+}
+
+.red__text__highlight__full {
+  background-color: #e6002a;
+  color: #fff;
+}
+
+.green__text__highlight__full {
+  background-color: #21d35c;
+  color: #fff;
+}
+
+.blue__text__highlight__full {
+  background-color: #0e3caf;
+  color: #fff;
 }
 
 * {
@@ -660,6 +765,10 @@ div.app.font__nunito * {
 .sur__color__red.full__red {
   background-color: #e7002a;
   color: white;
+}
+
+.clickable {
+  cursor: pointer;
 }
 
 div.app a {
@@ -955,8 +1064,6 @@ div.app main div.card div.card__footer {
 }
 div.app main div.card div.card__footer div.item {
   cursor: pointer;
-  height: 4rem;
-  line-height: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
