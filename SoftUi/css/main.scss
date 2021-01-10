@@ -167,6 +167,10 @@ div.app {
             justify-content: space-between;
             align-items: center;
 
+            &.no__shadow{
+                box-shadow: none !important;
+            }
+
             ul {
                 display: flex;
 
@@ -214,6 +218,10 @@ div.app {
             transition: 0.3s ease-in-out;
             overflow: hidden;
             overflow-y: auto;
+
+            &.no__shadow{
+                box-shadow: none !important;
+            }
 
             ul {
                 margin-top: 1.5rem;
