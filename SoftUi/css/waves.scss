@@ -1,0 +1,9 @@
+div.waves{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    div.waves__content{
+        padding: 1rem;
+    }
+}
