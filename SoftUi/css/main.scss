@@ -10,14 +10,9 @@
 
 
 $vupycolor: #e7002a;
-$backcolor: #d5dbdf;
-$backcolordark: #b8bbbd;
 
-$darkbackcolor: #303030;
-$darkbackcolordark: rgb(18, 18, 18);
-
-$darksyntax: rgb(33, 33, 33);
-$darksyntaxdark: rgb(26, 26, 26);
+$backcolor: #BEBEBE;
+$backcolordark: #9291a3;
 
 
 * {
@@ -283,14 +278,14 @@ div.app {
         .input {
             cursor: pointer;
             height: 2.5rem;
-            border: 2px solid $backcolor;
+            border: 1px solid $backcolor;
             transition: 0.3s ease-in-out;
             border-radius: 6px;
             padding: 0 1rem;
         
             &:hover,
             &:focus {
-                border: 2px solid $backcolordark;
+                border: 1.5px solid $backcolordark;
             }
         }
 
