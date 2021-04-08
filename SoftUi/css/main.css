@@ -856,7 +856,7 @@ div.app .pub {
   text-align: center;
   padding: 4px;
   min-width: 10vw;
-  font-size: 100%;
+  font-size: 85%;
   color: #ffffff;
   position: relative;
   overflow: hidden;
@@ -1131,7 +1131,7 @@ div.app main div.card {
 }
 div.app main div.card div.image__card {
   width: 100%;
-  height: 30rem;
+  max-height: 30rem;
   overflow: hidden;
 }
 div.app main div.card div.image__card img {

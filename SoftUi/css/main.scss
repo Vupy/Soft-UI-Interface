@@ -10,7 +10,6 @@
 
 
 $vupycolor: #e7002a;
-
 $backcolor: #BEBEBE;
 $backcolordark: #848397;
 
@@ -86,7 +85,7 @@ div.app {
         text-align: center;
         padding: 4px;
         min-width: 10vw;
-        font-size: 100%;
+        font-size: 85%;
         color: #ffffff;
         position: relative;
         overflow: hidden;
@@ -421,7 +420,7 @@ div.app {
 
             div.image__card {
                 width: 100%;
-                height: 30rem;
+                max-height: 30rem;
                 overflow: hidden;
 
                 img {
