@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <div class="app">
+        <nav class="top__menu">
+            <span class="logo"><img src="../img/logo.svg">LOGO</span>
+            <ul>
+                <li><img src="../img/logo.svg" class="rounded"> Item </li>
+
+                <li>Item </li>
+                <li>Item </li>
+                <li>Item </li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <div class="modal" id="md1">
+                <div class="modal__content">
+                    <header>
+                        <p>Modal 1</p>
+                        <span class="clickable" onclick="toggleModal()">X</span>
+                    </header>
+
+                    <div class="modal__body">
+                        <div class="crop__img h__20">
+                            <img src="../img/karma-talukdar-DEYE5C8WKTA-unsplash.jpg">
+                        </div>
+                        <br>
+
+                        <h4 class="marb-025">Cat law's</h4>
+                        <p class="font__size__090">
+                            <span class="gray__text">Lorem</span> <span class="lightgray__text">ipsum</span> <span class="darkgray__text">dolor</span> sit amet consectetur adipisicing elit. Incidunt optio delectus pariatur inventore suscipit hic nihil, aperiam rem esse quos adipisci doloremque iste ut autem aspernatur ex facere perspiciatis laudantium.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laborum iste, officia, consectetur fugiat adipisci nobis incidunt error facere minima aliquid nostrum voluptas ut amet quisquam, at et consequatur earum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="pub mar-2" onclick="toggleModal()">Abrir modal</button>
+            <br>
+        </main>
+    </div>
+
+    <script>
+        const toggleModal = () => {
+            document.querySelector(".modal#md1").classList.toggle("active")
+        }
+    </script>
+</body>
+</html>

@@ -94,7 +94,7 @@
     text-decoration: underline;
 }
 
-.through {
+.through, .strike {
     text-decoration: line-through;
 }
 
@@ -109,6 +109,18 @@
 
 .black__text {
     color: #000;
+}
+
+.gray__text {
+    color: rgb(126, 126, 126);
+}
+
+.darkgray__text {
+    color: rgb(73, 73, 73);
+}
+
+.lightgray__text {
+    color: rgb(194, 194, 194);
 }
 
 .red__text {

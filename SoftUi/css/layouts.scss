@@ -11,6 +11,18 @@ div.app {
             flex-direction: column;
         }
 
+        .flex__wrap {
+            flex-wrap: wrap;
+        }
+
+        .flex__nowrap {
+            flex-wrap: nowrap;
+        }
+
+        .flex__wrap__reverse {
+            flex-wrap: wrap-reverse;
+        }
+
         .flex__align__center {
             align-items: center;
         }
