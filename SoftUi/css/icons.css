@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Vupy-icons';
-  src:  url('fonts/Vupy-icons.eot?shbbww');
-  src:  url('fonts/Vupy-icons.eot?shbbww#iefix') format('embedded-opentype'),
-    url('fonts/Vupy-icons.ttf?shbbww') format('truetype'),
-    url('fonts/Vupy-icons.woff?shbbww') format('woff'),
-    url('fonts/Vupy-icons.svg?shbbww#Vupy-icons') format('svg');
+  src:  url('fonts/Vupy-icons.eot?r01ddz');
+  src:  url('fonts/Vupy-icons.eot?r01ddz#iefix') format('embedded-opentype'),
+    url('fonts/Vupy-icons.ttf?r01ddz') format('truetype'),
+    url('fonts/Vupy-icons.woff?r01ddz') format('woff'),
+    url('fonts/Vupy-icons.svg?r01ddz#Vupy-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -37,6 +37,33 @@
 .vi-arrow-top:before {
   content: "\e917";
 }
+.vi-ban:before {
+  content: "\e908";
+}
+.vi-bell:before {
+  content: "\e909";
+}
+.vi-book:before {
+  content: "\e987";
+}
+.vi-box:before {
+  content: "\e988";
+}
+.vi-box-pen:before {
+  content: "\e90a";
+}
+.vi-broke-heart:before {
+  content: "\e90b";
+}
+.vi-camera:before {
+  content: "\e989";
+}
+.vi-caution-circle:before {
+  content: "\e90c";
+}
+.vi-caution-triangle:before {
+  content: "\e90d";
+}
 .vi-chevron-down:before {
   content: "\e918";
 }
@@ -61,35 +88,11 @@
 .vi-chevrons-top:before {
   content: "\e91f";
 }
-.vi-download:before {
-  content: "\e920";
-}
-.vi-upload:before {
-  content: "\e921";
-}
-.vi-full-right-square-dots-message:before {
-  content: "\e942";
-}
-.vi-full-square-dots-message:before {
-  content: "\e94b";
+.vi-circle-ban-message:before {
+  content: "\e902";
 }
 .vi-circle-dots-message:before {
   content: "\e903";
-}
-.vi-right-circle-dots-message:before {
-  content: "\e958";
-}
-.vi-right-square-dots-message:before {
-  content: "\e96a";
-}
-.vi-square-dots-message:before {
-  content: "\e972";
-}
-.vi-house:before {
-  content: "\e979";
-}
-.vi-simple-house:before {
-  content: "\e97b";
 }
 .vi-circle-message:before {
   content: "\e900";
@@ -97,44 +100,14 @@
 .vi-circle-x-message:before {
   content: "\e901";
 }
-.vi-circle-ban-message:before {
-  content: "\e902";
-}
-.vi-full-circle-message:before {
-  content: "\e904";
-}
-.vi-full-circle-x-message:before {
-  content: "\e905";
-}
-.vi-full-circle-ban-message:before {
-  content: "\e906";
-}
-.vi-full-circle-dots-message:before {
-  content: "\e907";
-}
-.vi-ban:before {
-  content: "\e908";
-}
-.vi-bell:before {
-  content: "\e909";
-}
-.vi-box-pen:before {
-  content: "\e90a";
-}
-.vi-broke-heart:before {
-  content: "\e90b";
-}
-.vi-caution-circle:before {
-  content: "\e90c";
-}
-.vi-caution-triangle:before {
-  content: "\e90d";
+.vi-code:before {
+  content: "\e90f";
 }
 .vi-code-tag:before {
   content: "\e90e";
 }
-.vi-code:before {
-  content: "\e90f";
+.vi-compass-120:before {
+  content: "\e912";
 }
 .vi-compass-30:before {
   content: "\e910";
@@ -142,14 +115,23 @@
 .vi-compass-90:before {
   content: "\e911";
 }
-.vi-compass-120:before {
-  content: "\e912";
-}
 .vi-config:before {
   content: "\e913";
 }
+.vi-download:before {
+  content: "\e920";
+}
+.vi-face:before {
+  content: "\e98a";
+}
 .vi-full-bell:before {
   content: "\e922";
+}
+.vi-full-book:before {
+  content: "\e98b";
+}
+.vi-full-box:before {
+  content: "\e98c";
 }
 .vi-full-box-pen:before {
   content: "\e923";
@@ -157,11 +139,29 @@
 .vi-full-broke-heart:before {
   content: "\e924";
 }
+.vi-full-camera:before {
+  content: "\e98d";
+}
 .vi-full-caution-circle:before {
   content: "\e925";
 }
 .vi-full-caution-triangle:before {
   content: "\e926";
+}
+.vi-full-circle-ban-message:before {
+  content: "\e906";
+}
+.vi-full-circle-dots-message:before {
+  content: "\e907";
+}
+.vi-full-circle-message:before {
+  content: "\e904";
+}
+.vi-full-circle-x-message:before {
+  content: "\e905";
+}
+.vi-full-compass-120:before {
+  content: "\e929";
 }
 .vi-full-compass-30:before {
   content: "\e927";
@@ -169,11 +169,11 @@
 .vi-full-compass-90:before {
   content: "\e928";
 }
-.vi-full-compass-120:before {
-  content: "\e929";
-}
 .vi-full-config:before {
   content: "\e92a";
+}
+.vi-full-gallery:before {
+  content: "\e98e";
 }
 .vi-full-group:before {
   content: "\e92b";
@@ -193,6 +193,9 @@
 .vi-full-left-send:before {
   content: "\e930";
 }
+.vi-full-mic:before {
+  content: "\e98f";
+}
 .vi-full-more-horizontal:before {
   content: "\e931";
 }
@@ -204,6 +207,12 @@
 }
 .vi-full-no-heart:before {
   content: "\e934";
+}
+.vi-full-no-mic:before {
+  content: "\e990";
+}
+.vi-full-open-book:before {
+  content: "\e991";
 }
 .vi-full-pen:before {
   content: "\e935";
@@ -235,14 +244,17 @@
 .vi-full-right-send:before {
   content: "\e93e";
 }
-.vi-full-right-share-unlined:before {
-  content: "\e93f";
-}
 .vi-full-right-share:before {
   content: "\e940";
 }
+.vi-full-right-share-unlined:before {
+  content: "\e93f";
+}
 .vi-full-right-square-ban-message:before {
   content: "\e941";
+}
+.vi-full-right-square-dots-message:before {
+  content: "\e942";
 }
 .vi-full-right-square-message:before {
   content: "\e943";
@@ -256,11 +268,11 @@
 .vi-full-send:before {
   content: "\e946";
 }
-.vi-full-share-unlined:before {
-  content: "\e947";
-}
 .vi-full-share:before {
   content: "\e948";
+}
+.vi-full-share-unlined:before {
+  content: "\e947";
 }
 .vi-full-simple-house:before {
   content: "\e949";
@@ -268,11 +280,20 @@
 .vi-full-square-ban-message:before {
   content: "\e94a";
 }
+.vi-full-square-dots-message:before {
+  content: "\e94b";
+}
 .vi-full-square-message:before {
   content: "\e94c";
 }
 .vi-full-square-x-message:before {
   content: "\e94d";
+}
+.vi-full-trash:before {
+  content: "\e992";
+}
+.vi-full-user:before {
+  content: "\e953";
 }
 .vi-full-user-ban:before {
   content: "\e94e";
@@ -289,20 +310,23 @@
 .vi-full-user-x:before {
   content: "\e952";
 }
-.vi-full-user:before {
-  content: "\e953";
-}
 .vi-full-users:before {
   content: "\e954";
 }
 .vi-full-write-pen:before {
   content: "\e955";
 }
+.vi-gallery:before {
+  content: "\e993";
+}
 .vi-group:before {
   content: "\e956";
 }
 .vi-heart:before {
   content: "\e957";
+}
+.vi-house:before {
+  content: "\e979";
 }
 .vi-info-circle:before {
   content: "\e959";
@@ -319,8 +343,14 @@
 .vi-logout:before {
   content: "\e95d";
 }
+.vi-meh:before {
+  content: "\e994";
+}
 .vi-menu:before {
   content: "\e95e";
+}
+.vi-mic:before {
+  content: "\e995";
 }
 .vi-minus:before {
   content: "\e95f";
@@ -336,6 +366,12 @@
 }
 .vi-no-heart:before {
   content: "\e963";
+}
+.vi-no-mic:before {
+  content: "\e996";
+}
+.vi-open-book:before {
+  content: "\e997";
 }
 .vi-pen:before {
   content: "\e964";
@@ -355,6 +391,9 @@
 .vi-right-circle-ban-message:before {
   content: "\e969";
 }
+.vi-right-circle-dots-message:before {
+  content: "\e958";
+}
 .vi-right-circle-message:before {
   content: "\e96b";
 }
@@ -364,17 +403,23 @@
 .vi-right-pen:before {
   content: "\e96d";
 }
+.vi-right-search:before {
+  content: "\e998";
+}
 .vi-right-send:before {
   content: "\e96e";
-}
-.vi-right-share-unlined:before {
-  content: "\e96f";
 }
 .vi-right-share:before {
   content: "\e970";
 }
+.vi-right-share-unlined:before {
+  content: "\e96f";
+}
 .vi-right-square-ban-message:before {
   content: "\e971";
+}
+.vi-right-square-dots-message:before {
+  content: "\e96a";
 }
 .vi-right-square-message:before {
   content: "\e973";
@@ -385,23 +430,44 @@
 .vi-right-write-pen:before {
   content: "\e975";
 }
+.vi-search:before {
+  content: "\e999";
+}
 .vi-send:before {
   content: "\e976";
-}
-.vi-share-unlined:before {
-  content: "\e977";
 }
 .vi-share:before {
   content: "\e978";
 }
+.vi-share-unlined:before {
+  content: "\e977";
+}
+.vi-simple-house:before {
+  content: "\e97b";
+}
+.vi-smile:before {
+  content: "\e99a";
+}
 .vi-square-ban-message:before {
   content: "\e97a";
+}
+.vi-square-dots-message:before {
+  content: "\e972";
 }
 .vi-square-message:before {
   content: "\e97c";
 }
 .vi-square-x-message:before {
   content: "\e97d";
+}
+.vi-trash:before {
+  content: "\e99b";
+}
+.vi-upload:before {
+  content: "\e921";
+}
+.vi-user:before {
+  content: "\e983";
 }
 .vi-user-ban:before {
   content: "\e97e";
@@ -417,9 +483,6 @@
 }
 .vi-user-x:before {
   content: "\e982";
-}
-.vi-user:before {
-  content: "\e983";
 }
 .vi-users:before {
   content: "\e984";

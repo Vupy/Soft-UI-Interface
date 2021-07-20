@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?mq7nqm');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?mq7nqm#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?mq7nqm') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?mq7nqm') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?mq7nqm##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?r01ddz');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?r01ddz#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?r01ddz') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?r01ddz') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?r01ddz##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,46 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.vi-arrow-down {
+  &:before {
+    content: $vi-arrow-down; 
+  }
+}
+.vi-arrow-left {
+  &:before {
+    content: $vi-arrow-left; 
+  }
+}
+.vi-arrow-right {
+  &:before {
+    content: $vi-arrow-right; 
+  }
+}
+.vi-arrow-top {
+  &:before {
+    content: $vi-arrow-top; 
+  }
+}
+.vi-ban {
+  &:before {
+    content: $vi-ban; 
+  }
+}
+.vi-bell {
+  &:before {
+    content: $vi-bell; 
+  }
+}
+.vi-book {
+  &:before {
+    content: $vi-book; 
+  }
+}
+.vi-box {
+  &:before {
+    content: $vi-box; 
+  }
+}
 .vi-box-pen {
   &:before {
     content: $vi-box-pen; 
@@ -35,6 +75,11 @@
 .vi-broke-heart {
   &:before {
     content: $vi-broke-heart; 
+  }
+}
+.vi-camera {
+  &:before {
+    content: $vi-camera; 
   }
 }
 .vi-caution-circle {
@@ -62,6 +107,11 @@
     content: $vi-chevron-right; 
   }
 }
+.vi-chevron-top {
+  &:before {
+    content: $vi-chevron-top; 
+  }
+}
 .vi-chevrons-down {
   &:before {
     content: $vi-chevrons-down; 
@@ -77,14 +127,9 @@
     content: $vi-chevrons-right; 
   }
 }
-.vi-chevrons-up {
+.vi-chevrons-top {
   &:before {
-    content: $vi-chevrons-up; 
-  }
-}
-.vi-chevron-up {
-  &:before {
-    content: $vi-chevron-up; 
+    content: $vi-chevrons-top; 
   }
 }
 .vi-circle-ban-message {
@@ -95,11 +140,6 @@
 .vi-circle-dots-message {
   &:before {
     content: $vi-circle-dots-message; 
-  }
-}
-.vi-circle-dots-message-1 {
-  &:before {
-    content: $vi-circle-dots-message-1; 
   }
 }
 .vi-circle-message {
@@ -122,6 +162,11 @@
     content: $vi-code-tag; 
   }
 }
+.vi-compass-120 {
+  &:before {
+    content: $vi-compass-120; 
+  }
+}
 .vi-compass-30 {
   &:before {
     content: $vi-compass-30; 
@@ -130,11 +175,6 @@
 .vi-compass-90 {
   &:before {
     content: $vi-compass-90; 
-  }
-}
-.vi-compass-120 {
-  &:before {
-    content: $vi-compass-120; 
   }
 }
 .vi-config {
@@ -147,6 +187,336 @@
     content: $vi-download; 
   }
 }
+.vi-face {
+  &:before {
+    content: $vi-face; 
+  }
+}
+.vi-full-bell {
+  &:before {
+    content: $vi-full-bell; 
+  }
+}
+.vi-full-book {
+  &:before {
+    content: $vi-full-book; 
+  }
+}
+.vi-full-box {
+  &:before {
+    content: $vi-full-box; 
+  }
+}
+.vi-full-box-pen {
+  &:before {
+    content: $vi-full-box-pen; 
+  }
+}
+.vi-full-broke-heart {
+  &:before {
+    content: $vi-full-broke-heart; 
+  }
+}
+.vi-full-camera {
+  &:before {
+    content: $vi-full-camera; 
+  }
+}
+.vi-full-caution-circle {
+  &:before {
+    content: $vi-full-caution-circle; 
+  }
+}
+.vi-full-caution-triangle {
+  &:before {
+    content: $vi-full-caution-triangle; 
+  }
+}
+.vi-full-circle-ban-message {
+  &:before {
+    content: $vi-full-circle-ban-message; 
+  }
+}
+.vi-full-circle-dots-message {
+  &:before {
+    content: $vi-full-circle-dots-message; 
+  }
+}
+.vi-full-circle-message {
+  &:before {
+    content: $vi-full-circle-message; 
+  }
+}
+.vi-full-circle-x-message {
+  &:before {
+    content: $vi-full-circle-x-message; 
+  }
+}
+.vi-full-compass-120 {
+  &:before {
+    content: $vi-full-compass-120; 
+  }
+}
+.vi-full-compass-30 {
+  &:before {
+    content: $vi-full-compass-30; 
+  }
+}
+.vi-full-compass-90 {
+  &:before {
+    content: $vi-full-compass-90; 
+  }
+}
+.vi-full-config {
+  &:before {
+    content: $vi-full-config; 
+  }
+}
+.vi-full-gallery {
+  &:before {
+    content: $vi-full-gallery; 
+  }
+}
+.vi-full-group {
+  &:before {
+    content: $vi-full-group; 
+  }
+}
+.vi-full-heart {
+  &:before {
+    content: $vi-full-heart; 
+  }
+}
+.vi-full-house {
+  &:before {
+    content: $vi-full-house; 
+  }
+}
+.vi-full-info-circle {
+  &:before {
+    content: $vi-full-info-circle; 
+  }
+}
+.vi-full-info-triangle {
+  &:before {
+    content: $vi-full-info-triangle; 
+  }
+}
+.vi-full-left-send {
+  &:before {
+    content: $vi-full-left-send; 
+  }
+}
+.vi-full-mic {
+  &:before {
+    content: $vi-full-mic; 
+  }
+}
+.vi-full-more-horizontal {
+  &:before {
+    content: $vi-full-more-horizontal; 
+  }
+}
+.vi-full-more-vertical {
+  &:before {
+    content: $vi-full-more-vertical; 
+  }
+}
+.vi-full-no-bell {
+  &:before {
+    content: $vi-full-no-bell; 
+  }
+}
+.vi-full-no-heart {
+  &:before {
+    content: $vi-full-no-heart; 
+  }
+}
+.vi-full-no-mic {
+  &:before {
+    content: $vi-full-no-mic; 
+  }
+}
+.vi-full-open-book {
+  &:before {
+    content: $vi-full-open-book; 
+  }
+}
+.vi-full-pen {
+  &:before {
+    content: $vi-full-pen; 
+  }
+}
+.vi-full-question-circle {
+  &:before {
+    content: $vi-full-question-circle; 
+  }
+}
+.vi-full-question-triangle {
+  &:before {
+    content: $vi-full-question-triangle; 
+  }
+}
+.vi-full-right-box-pen {
+  &:before {
+    content: $vi-full-right-box-pen; 
+  }
+}
+.vi-full-right-circle-ban-message {
+  &:before {
+    content: $vi-full-right-circle-ban-message; 
+  }
+}
+.vi-full-right-circle-dots-message {
+  &:before {
+    content: $vi-full-right-circle-dots-message; 
+  }
+}
+.vi-full-right-circle-message {
+  &:before {
+    content: $vi-full-right-circle-message; 
+  }
+}
+.vi-full-right-circle-x-message {
+  &:before {
+    content: $vi-full-right-circle-x-message; 
+  }
+}
+.vi-full-right-pen {
+  &:before {
+    content: $vi-full-right-pen; 
+  }
+}
+.vi-full-right-send {
+  &:before {
+    content: $vi-full-right-send; 
+  }
+}
+.vi-full-right-share {
+  &:before {
+    content: $vi-full-right-share; 
+  }
+}
+.vi-full-right-share-unlined {
+  &:before {
+    content: $vi-full-right-share-unlined; 
+  }
+}
+.vi-full-right-square-ban-message {
+  &:before {
+    content: $vi-full-right-square-ban-message; 
+  }
+}
+.vi-full-right-square-dots-message {
+  &:before {
+    content: $vi-full-right-square-dots-message; 
+  }
+}
+.vi-full-right-square-message {
+  &:before {
+    content: $vi-full-right-square-message; 
+  }
+}
+.vi-full-right-square-x-message {
+  &:before {
+    content: $vi-full-right-square-x-message; 
+  }
+}
+.vi-full-right-write-pen {
+  &:before {
+    content: $vi-full-right-write-pen; 
+  }
+}
+.vi-full-send {
+  &:before {
+    content: $vi-full-send; 
+  }
+}
+.vi-full-share {
+  &:before {
+    content: $vi-full-share; 
+  }
+}
+.vi-full-share-unlined {
+  &:before {
+    content: $vi-full-share-unlined; 
+  }
+}
+.vi-full-simple-house {
+  &:before {
+    content: $vi-full-simple-house; 
+  }
+}
+.vi-full-square-ban-message {
+  &:before {
+    content: $vi-full-square-ban-message; 
+  }
+}
+.vi-full-square-dots-message {
+  &:before {
+    content: $vi-full-square-dots-message; 
+  }
+}
+.vi-full-square-message {
+  &:before {
+    content: $vi-full-square-message; 
+  }
+}
+.vi-full-square-x-message {
+  &:before {
+    content: $vi-full-square-x-message; 
+  }
+}
+.vi-full-trash {
+  &:before {
+    content: $vi-full-trash; 
+  }
+}
+.vi-full-user {
+  &:before {
+    content: $vi-full-user; 
+  }
+}
+.vi-full-user-ban {
+  &:before {
+    content: $vi-full-user-ban; 
+  }
+}
+.vi-full-user-circle {
+  &:before {
+    content: $vi-full-user-circle; 
+  }
+}
+.vi-full-user-minus {
+  &:before {
+    content: $vi-full-user-minus; 
+  }
+}
+.vi-full-user-plus {
+  &:before {
+    content: $vi-full-user-plus; 
+  }
+}
+.vi-full-user-x {
+  &:before {
+    content: $vi-full-user-x; 
+  }
+}
+.vi-full-users {
+  &:before {
+    content: $vi-full-users; 
+  }
+}
+.vi-full-write-pen {
+  &:before {
+    content: $vi-full-write-pen; 
+  }
+}
+.vi-gallery {
+  &:before {
+    content: $vi-gallery; 
+  }
+}
 .vi-group {
   &:before {
     content: $vi-group; 
@@ -155,6 +525,11 @@
 .vi-heart {
   &:before {
     content: $vi-heart; 
+  }
+}
+.vi-house {
+  &:before {
+    content: $vi-house; 
   }
 }
 .vi-info-circle {
@@ -167,6 +542,11 @@
     content: $vi-info-triangle; 
   }
 }
+.vi-left-send {
+  &:before {
+    content: $vi-left-send; 
+  }
+}
 .vi-login {
   &:before {
     content: $vi-login; 
@@ -177,9 +557,19 @@
     content: $vi-logout; 
   }
 }
+.vi-meh {
+  &:before {
+    content: $vi-meh; 
+  }
+}
 .vi-menu {
   &:before {
     content: $vi-menu; 
+  }
+}
+.vi-mic {
+  &:before {
+    content: $vi-mic; 
   }
 }
 .vi-minus {
@@ -200,6 +590,21 @@
 .vi-no-bell {
   &:before {
     content: $vi-no-bell; 
+  }
+}
+.vi-no-heart {
+  &:before {
+    content: $vi-no-heart; 
+  }
+}
+.vi-no-mic {
+  &:before {
+    content: $vi-no-mic; 
+  }
+}
+.vi-open-book {
+  &:before {
+    content: $vi-open-book; 
   }
 }
 .vi-pen {
@@ -232,6 +637,11 @@
     content: $vi-right-circle-ban-message; 
   }
 }
+.vi-right-circle-dots-message {
+  &:before {
+    content: $vi-right-circle-dots-message; 
+  }
+}
 .vi-right-circle-message {
   &:before {
     content: $vi-right-circle-message; 
@@ -247,9 +657,24 @@
     content: $vi-right-pen; 
   }
 }
+.vi-right-search {
+  &:before {
+    content: $vi-right-search; 
+  }
+}
 .vi-right-send {
   &:before {
     content: $vi-right-send; 
+  }
+}
+.vi-right-share {
+  &:before {
+    content: $vi-right-share; 
+  }
+}
+.vi-right-share-unlined {
+  &:before {
+    content: $vi-right-share-unlined; 
   }
 }
 .vi-right-square-ban-message {
@@ -277,6 +702,11 @@
     content: $vi-right-write-pen; 
   }
 }
+.vi-search {
+  &:before {
+    content: $vi-search; 
+  }
+}
 .vi-send {
   &:before {
     content: $vi-send; 
@@ -290,6 +720,16 @@
 .vi-share-unlined {
   &:before {
     content: $vi-share-unlined; 
+  }
+}
+.vi-simple-house {
+  &:before {
+    content: $vi-simple-house; 
+  }
+}
+.vi-smile {
+  &:before {
+    content: $vi-smile; 
   }
 }
 .vi-square-ban-message {
@@ -310,6 +750,11 @@
 .vi-square-x-message {
   &:before {
     content: $vi-square-x-message; 
+  }
+}
+.vi-trash {
+  &:before {
+    content: $vi-trash; 
   }
 }
 .vi-upload {
@@ -342,14 +787,14 @@
     content: $vi-user-plus; 
   }
 }
-.vi-users {
-  &:before {
-    content: $vi-users; 
-  }
-}
 .vi-user-x {
   &:before {
     content: $vi-user-x; 
+  }
+}
+.vi-users {
+  &:before {
+    content: $vi-users; 
   }
 }
 .vi-write-pen {
@@ -360,401 +805,6 @@
 .vi-x {
   &:before {
     content: $vi-x; 
-  }
-}
-.vi-arrow-down {
-  &:before {
-    content: $vi-arrow-down; 
-  }
-}
-.vi-arrow-left {
-  &:before {
-    content: $vi-arrow-left; 
-  }
-}
-.vi-arrow-right {
-  &:before {
-    content: $vi-arrow-right; 
-  }
-}
-.vi-arrow-up {
-  &:before {
-    content: $vi-arrow-up; 
-  }
-}
-.vi-ban {
-  &:before {
-    content: $vi-ban; 
-  }
-}
-.vi-bell {
-  &:before {
-    content: $vi-bell; 
-  }
-}
-.vi-fill-bell {
-  &:before {
-    content: $vi-fill-bell; 
-  }
-}
-.vi-fill-box-pen {
-  &:before {
-    content: $vi-fill-box-pen; 
-  }
-}
-.vi-fill-broke-heart {
-  &:before {
-    content: $vi-fill-broke-heart; 
-  }
-}
-.vi-fill-caution-circle {
-  &:before {
-    content: $vi-fill-caution-circle; 
-  }
-}
-.vi-fill-caution-triangle {
-  &:before {
-    content: $vi-fill-caution-triangle; 
-  }
-}
-.vi-fill-chevron-down {
-  &:before {
-    content: $vi-fill-chevron-down; 
-  }
-}
-.vi-fill-chevron-left {
-  &:before {
-    content: $vi-fill-chevron-left; 
-  }
-}
-.vi-fill-chevron-right {
-  &:before {
-    content: $vi-fill-chevron-right; 
-  }
-}
-.vi-fill-chevrons-down {
-  &:before {
-    content: $vi-fill-chevrons-down; 
-  }
-}
-.vi-fill-chevrons-left {
-  &:before {
-    content: $vi-fill-chevrons-left; 
-  }
-}
-.vi-fill-chevrons-right {
-  &:before {
-    content: $vi-fill-chevrons-right; 
-  }
-}
-.vi-fill-chevrons-up {
-  &:before {
-    content: $vi-fill-chevrons-up; 
-  }
-}
-.vi-fill-chevron-up {
-  &:before {
-    content: $vi-fill-chevron-up; 
-  }
-}
-.vi-fill-circle-ban-message {
-  &:before {
-    content: $vi-fill-circle-ban-message; 
-  }
-}
-.vi-fill-circle-dots-message {
-  &:before {
-    content: $vi-fill-circle-dots-message; 
-  }
-}
-.vi-fill-circle-dots-message-1 {
-  &:before {
-    content: $vi-fill-circle-dots-message-1; 
-  }
-}
-.vi-fill-circle-message {
-  &:before {
-    content: $vi-fill-circle-message; 
-  }
-}
-.vi-fill-circle-x-message {
-  &:before {
-    content: $vi-fill-circle-x-message; 
-  }
-}
-.vi-fill-code {
-  &:before {
-    content: $vi-fill-code; 
-  }
-}
-.vi-fill-code-tag {
-  &:before {
-    content: $vi-fill-code-tag; 
-  }
-}
-.vi-fill-compass-30 {
-  &:before {
-    content: $vi-fill-compass-30; 
-  }
-}
-.vi-fill-compass-90 {
-  &:before {
-    content: $vi-fill-compass-90; 
-  }
-}
-.vi-fill-compass-120 {
-  &:before {
-    content: $vi-fill-compass-120; 
-  }
-}
-.vi-fill-config {
-  &:before {
-    content: $vi-fill-config; 
-  }
-}
-.vi-fill-download {
-  &:before {
-    content: $vi-fill-download; 
-  }
-}
-.vi-fill-group {
-  &:before {
-    content: $vi-fill-group; 
-  }
-}
-.vi-fill-heart {
-  &:before {
-    content: $vi-fill-heart; 
-  }
-}
-.vi-fill-info-circle {
-  &:before {
-    content: $vi-fill-info-circle; 
-  }
-}
-.vi-fill-info-triangle {
-  &:before {
-    content: $vi-fill-info-triangle; 
-  }
-}
-.vi-fill-login {
-  &:before {
-    content: $vi-fill-login; 
-  }
-}
-.vi-fill-logout {
-  &:before {
-    content: $vi-fill-logout; 
-  }
-}
-.vi-fill-menu {
-  &:before {
-    content: $vi-fill-menu; 
-  }
-}
-.vi-fill-minus {
-  &:before {
-    content: $vi-fill-minus; 
-  }
-}
-.vi-fill-more-horizontal {
-  &:before {
-    content: $vi-fill-more-horizontal; 
-  }
-}
-.vi-fill-more-vertical {
-  &:before {
-    content: $vi-fill-more-vertical; 
-  }
-}
-.vi-fill-no-bell {
-  &:before {
-    content: $vi-fill-no-bell; 
-  }
-}
-.vi-fill-pen {
-  &:before {
-    content: $vi-fill-pen; 
-  }
-}
-.vi-fill-plus {
-  &:before {
-    content: $vi-fill-plus; 
-  }
-}
-.vi-fill-question-circle {
-  &:before {
-    content: $vi-fill-question-circle; 
-  }
-}
-.vi-fill-question-triangle {
-  &:before {
-    content: $vi-fill-question-triangle; 
-  }
-}
-.vi-fill-right-box-pen {
-  &:before {
-    content: $vi-fill-right-box-pen; 
-  }
-}
-.vi-fill-right-circle-ban-message {
-  &:before {
-    content: $vi-fill-right-circle-ban-message; 
-  }
-}
-.vi-fill-right-circle-message {
-  &:before {
-    content: $vi-fill-right-circle-message; 
-  }
-}
-.vi-fill-right-circle-x-message {
-  &:before {
-    content: $vi-fill-right-circle-x-message; 
-  }
-}
-.vi-fill-right-pen {
-  &:before {
-    content: $vi-fill-right-pen; 
-  }
-}
-.vi-fill-right-send {
-  &:before {
-    content: $vi-fill-right-send; 
-  }
-}
-.vi-fill-right-square-ban-message {
-  &:before {
-    content: $vi-fill-right-square-ban-message; 
-  }
-}
-.vi-fill-right-square-dots-message {
-  &:before {
-    content: $vi-fill-right-square-dots-message; 
-  }
-}
-.vi-fill-right-square-message {
-  &:before {
-    content: $vi-fill-right-square-message; 
-  }
-}
-.vi-fill-right-square-x-message {
-  &:before {
-    content: $vi-fill-right-square-x-message; 
-  }
-}
-.vi-fill-right-write-pen {
-  &:before {
-    content: $vi-fill-right-write-pen; 
-  }
-}
-.vi-fill-send {
-  &:before {
-    content: $vi-fill-send; 
-  }
-}
-.vi-fill-share {
-  &:before {
-    content: $vi-fill-share; 
-  }
-}
-.vi-fill-share-unlined {
-  &:before {
-    content: $vi-fill-share-unlined; 
-  }
-}
-.vi-fill-square-ban-message {
-  &:before {
-    content: $vi-fill-square-ban-message; 
-  }
-}
-.vi-fill-square-dots-message {
-  &:before {
-    content: $vi-fill-square-dots-message; 
-  }
-}
-.vi-fill-square-message {
-  &:before {
-    content: $vi-fill-square-message; 
-  }
-}
-.vi-fill-square-x-message {
-  &:before {
-    content: $vi-fill-square-x-message; 
-  }
-}
-.vi-fill-upload {
-  &:before {
-    content: $vi-fill-upload; 
-  }
-}
-.vi-fill-user {
-  &:before {
-    content: $vi-fill-user; 
-  }
-}
-.vi-fill-user-ban {
-  &:before {
-    content: $vi-fill-user-ban; 
-  }
-}
-.vi-fill-user-circle {
-  &:before {
-    content: $vi-fill-user-circle; 
-  }
-}
-.vi-fill-user-minus {
-  &:before {
-    content: $vi-fill-user-minus; 
-  }
-}
-.vi-fill-user-plus {
-  &:before {
-    content: $vi-fill-user-plus; 
-  }
-}
-.vi-fill-users {
-  &:before {
-    content: $vi-fill-users; 
-  }
-}
-.vi-fill-user-x {
-  &:before {
-    content: $vi-fill-user-x; 
-  }
-}
-.vi-fill-write-pen {
-  &:before {
-    content: $vi-fill-write-pen; 
-  }
-}
-.vi-fill-x {
-  &:before {
-    content: $vi-fill-x; 
-  }
-}
-.vi-fill-arrow-down {
-  &:before {
-    content: $vi-fill-arrow-down; 
-  }
-}
-.vi-fill-arrow-left {
-  &:before {
-    content: $vi-fill-arrow-left; 
-  }
-}
-.vi-fill-arrow-right {
-  &:before {
-    content: $vi-fill-arrow-right; 
-  }
-}
-.vi-fill-arrow-up {
-  &:before {
-    content: $vi-fill-arrow-up; 
-  }
-}
-.vi-fill-ban {
-  &:before {
-    content: $vi-fill-ban; 
   }
 }
 

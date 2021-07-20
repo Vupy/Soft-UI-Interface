@@ -10,6 +10,33 @@
 .vi-arrow-top {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe917;');
 }
+.vi-ban {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe908;');
+}
+.vi-bell {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe909;');
+}
+.vi-book {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe987;');
+}
+.vi-box {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe988;');
+}
+.vi-box-pen {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90a;');
+}
+.vi-broke-heart {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90b;');
+}
+.vi-camera {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe989;');
+}
+.vi-caution-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90c;');
+}
+.vi-caution-triangle {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90d;');
+}
 .vi-chevron-down {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe918;');
 }
@@ -34,35 +61,11 @@
 .vi-chevrons-top {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91f;');
 }
-.vi-download {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe920;');
-}
-.vi-upload {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe921;');
-}
-.vi-full-right-square-dots-message {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe942;');
-}
-.vi-full-square-dots-message {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe94b;');
+.vi-circle-ban-message {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe902;');
 }
 .vi-circle-dots-message {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe903;');
-}
-.vi-right-circle-dots-message {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe958;');
-}
-.vi-right-square-dots-message {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe96a;');
-}
-.vi-square-dots-message {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe972;');
-}
-.vi-house {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe979;');
-}
-.vi-simple-house {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe97b;');
 }
 .vi-circle-message {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe900;');
@@ -70,44 +73,14 @@
 .vi-circle-x-message {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe901;');
 }
-.vi-circle-ban-message {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe902;');
-}
-.vi-full-circle-message {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe904;');
-}
-.vi-full-circle-x-message {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe905;');
-}
-.vi-full-circle-ban-message {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe906;');
-}
-.vi-full-circle-dots-message {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe907;');
-}
-.vi-ban {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe908;');
-}
-.vi-bell {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe909;');
-}
-.vi-box-pen {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90a;');
-}
-.vi-broke-heart {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90b;');
-}
-.vi-caution-circle {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90c;');
-}
-.vi-caution-triangle {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90d;');
+.vi-code {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90f;');
 }
 .vi-code-tag {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90e;');
 }
-.vi-code {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90f;');
+.vi-compass-120 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe912;');
 }
 .vi-compass-30 {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe910;');
@@ -115,14 +88,23 @@
 .vi-compass-90 {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe911;');
 }
-.vi-compass-120 {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe912;');
-}
 .vi-config {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe913;');
 }
+.vi-download {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe920;');
+}
+.vi-face {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe98a;');
+}
 .vi-full-bell {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe922;');
+}
+.vi-full-book {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe98b;');
+}
+.vi-full-box {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe98c;');
 }
 .vi-full-box-pen {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe923;');
@@ -130,11 +112,29 @@
 .vi-full-broke-heart {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe924;');
 }
+.vi-full-camera {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe98d;');
+}
 .vi-full-caution-circle {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe925;');
 }
 .vi-full-caution-triangle {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe926;');
+}
+.vi-full-circle-ban-message {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe906;');
+}
+.vi-full-circle-dots-message {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe907;');
+}
+.vi-full-circle-message {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe904;');
+}
+.vi-full-circle-x-message {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe905;');
+}
+.vi-full-compass-120 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe929;');
 }
 .vi-full-compass-30 {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe927;');
@@ -142,11 +142,11 @@
 .vi-full-compass-90 {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe928;');
 }
-.vi-full-compass-120 {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe929;');
-}
 .vi-full-config {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe92a;');
+}
+.vi-full-gallery {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe98e;');
 }
 .vi-full-group {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe92b;');
@@ -166,6 +166,9 @@
 .vi-full-left-send {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe930;');
 }
+.vi-full-mic {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe98f;');
+}
 .vi-full-more-horizontal {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe931;');
 }
@@ -177,6 +180,12 @@
 }
 .vi-full-no-heart {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe934;');
+}
+.vi-full-no-mic {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe990;');
+}
+.vi-full-open-book {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe991;');
 }
 .vi-full-pen {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe935;');
@@ -208,14 +217,17 @@
 .vi-full-right-send {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe93e;');
 }
-.vi-full-right-share-unlined {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe93f;');
-}
 .vi-full-right-share {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe940;');
 }
+.vi-full-right-share-unlined {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe93f;');
+}
 .vi-full-right-square-ban-message {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe941;');
+}
+.vi-full-right-square-dots-message {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe942;');
 }
 .vi-full-right-square-message {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe943;');
@@ -229,11 +241,11 @@
 .vi-full-send {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe946;');
 }
-.vi-full-share-unlined {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe947;');
-}
 .vi-full-share {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe948;');
+}
+.vi-full-share-unlined {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe947;');
 }
 .vi-full-simple-house {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe949;');
@@ -241,11 +253,20 @@
 .vi-full-square-ban-message {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe94a;');
 }
+.vi-full-square-dots-message {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe94b;');
+}
 .vi-full-square-message {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe94c;');
 }
 .vi-full-square-x-message {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe94d;');
+}
+.vi-full-trash {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe992;');
+}
+.vi-full-user {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe953;');
 }
 .vi-full-user-ban {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe94e;');
@@ -262,20 +283,23 @@
 .vi-full-user-x {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe952;');
 }
-.vi-full-user {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe953;');
-}
 .vi-full-users {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe954;');
 }
 .vi-full-write-pen {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe955;');
 }
+.vi-gallery {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe993;');
+}
 .vi-group {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe956;');
 }
 .vi-heart {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe957;');
+}
+.vi-house {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe979;');
 }
 .vi-info-circle {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe959;');
@@ -292,8 +316,14 @@
 .vi-logout {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe95d;');
 }
+.vi-meh {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe994;');
+}
 .vi-menu {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe95e;');
+}
+.vi-mic {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe995;');
 }
 .vi-minus {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe95f;');
@@ -309,6 +339,12 @@
 }
 .vi-no-heart {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe963;');
+}
+.vi-no-mic {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe996;');
+}
+.vi-open-book {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe997;');
 }
 .vi-pen {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe964;');
@@ -328,6 +364,9 @@
 .vi-right-circle-ban-message {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe969;');
 }
+.vi-right-circle-dots-message {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe958;');
+}
 .vi-right-circle-message {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe96b;');
 }
@@ -337,17 +376,23 @@
 .vi-right-pen {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe96d;');
 }
+.vi-right-search {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe998;');
+}
 .vi-right-send {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe96e;');
-}
-.vi-right-share-unlined {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe96f;');
 }
 .vi-right-share {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe970;');
 }
+.vi-right-share-unlined {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe96f;');
+}
 .vi-right-square-ban-message {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe971;');
+}
+.vi-right-square-dots-message {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe96a;');
 }
 .vi-right-square-message {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe973;');
@@ -358,23 +403,44 @@
 .vi-right-write-pen {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe975;');
 }
+.vi-search {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe999;');
+}
 .vi-send {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe976;');
-}
-.vi-share-unlined {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe977;');
 }
 .vi-share {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe978;');
 }
+.vi-share-unlined {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe977;');
+}
+.vi-simple-house {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe97b;');
+}
+.vi-smile {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe99a;');
+}
 .vi-square-ban-message {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe97a;');
+}
+.vi-square-dots-message {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe972;');
 }
 .vi-square-message {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe97c;');
 }
 .vi-square-x-message {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe97d;');
+}
+.vi-trash {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe99b;');
+}
+.vi-upload {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe921;');
+}
+.vi-user {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe983;');
 }
 .vi-user-ban {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe97e;');
@@ -390,9 +456,6 @@
 }
 .vi-user-x {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe982;');
-}
-.vi-user {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe983;');
 }
 .vi-users {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe984;');
