@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Vupy-icons';
-  src:  url('fonts/Vupy-icons.eot?r01ddz');
-  src:  url('fonts/Vupy-icons.eot?r01ddz#iefix') format('embedded-opentype'),
-    url('fonts/Vupy-icons.ttf?r01ddz') format('truetype'),
-    url('fonts/Vupy-icons.woff?r01ddz') format('woff'),
-    url('fonts/Vupy-icons.svg?r01ddz#Vupy-icons') format('svg');
+  src:  url('fonts/Vupy-icons.eot?zfy3iy');
+  src:  url('fonts/Vupy-icons.eot?zfy3iy#iefix') format('embedded-opentype'),
+    url('fonts/Vupy-icons.ttf?zfy3iy') format('truetype'),
+    url('fonts/Vupy-icons.woff?zfy3iy') format('woff'),
+    url('fonts/Vupy-icons.svg?zfy3iy#Vupy-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.vi-pause1:before {
+  content: "\e99c";
+}
+.vi-play1:before {
+  content: "\e99d";
+}
+.vi-pause:before {
+  content: "\e99e";
+}
+.vi-play:before {
+  content: "\e99f";
+}
 .vi-arrow-down:before {
   content: "\e914";
 }

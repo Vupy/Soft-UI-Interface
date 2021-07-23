@@ -12,6 +12,10 @@ class Vupy_icons {
 
   static const String _fontFamily = 'Vupy-icons';
 
+  static const IconData pause1 = IconData(0xe99c, fontFamily: _fontFamily);
+  static const IconData play1 = IconData(0xe99d, fontFamily: _fontFamily);
+  static const IconData pause = IconData(0xe99e, fontFamily: _fontFamily);
+  static const IconData play = IconData(0xe99f, fontFamily: _fontFamily);
   static const IconData arrow_down = IconData(0xe914, fontFamily: _fontFamily);
   static const IconData arrow_left = IconData(0xe915, fontFamily: _fontFamily);
   static const IconData arrow_right = IconData(0xe916, fontFamily: _fontFamily);
