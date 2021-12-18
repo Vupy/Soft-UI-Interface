@@ -1,99 +1,116 @@
+$percent_sizes: (
+    "100": 100%,
+    "75": 75%,
+    "66": 66.66%,
+    "50": 50%,
+    "33": 33.33%,
+    "25": 25%,
+);
+
+$vw_sizes: (
+    "100": 100vw,
+    "75": 75vw,
+    "66": 66.66vw,
+    "50": 50vw,
+    "33": 33.33vw,
+    "25": 25vw,
+);
+
+$vh_sizes: (
+    "100": 100vh,
+    "75": 75vh,
+    "66": 66.66vh,
+    "50": 50vh,
+    "33": 33.33vh,
+    "25": 25vh,
+);
+
+$rem_sizes: (
+    "025": .25rem,
+    "050": .5rem,
+    "075": .75rem,
+    "1": 1rem,
+    "150": 1.5rem,
+    "2": 2rem,
+    "250": 2.5rem,
+    "3": 3rem,
+    "350": 3.5rem,
+    "4": 4rem,
+    "450": 4.5rem,
+    "5": 5rem,
+    "550": 5.5rem,
+    "600": 6rem,
+    "650": 6.5rem,
+    "7": 7rem,
+);
+
+$em_sizes: (
+    "025": .25em,
+    "050": .5em,
+    "075": .75em,
+    "1": 1em,
+    "150": 1.5em,
+    "2": 2em,
+    "250": 2.5em,
+    "3": 3em,
+    "350": 3.5em,
+    "4": 4em,
+    "450": 4.5em,
+    "5": 5em,
+    "550": 5.5em,
+    "600": 6em,
+    "650": 6.5em,
+    "7": 7em,
+);
+
 div.app {
     main {
-        .w-100 {
-            width: 100%;
+        @each $name, $size in $percent_sizes {
+            .w-#{$name} {
+                width: $size;
+            }
         }
 
-        .w-75 {
-            width: 75%;
+        @each $name, $size in $vw_sizes {
+            .vw-#{$name} {
+                width: $size;
+            }
         }
 
-        .w-66 {
-            width: 66.66%;
+        @each $name, $size in $rem_sizes {
+            .remw-#{$name} {
+                width: $size;
+            }
         }
 
-        .w-50 {
-            width: 50%;
+        @each $name, $size in $em_sizes {
+            .emw-#{$name} {
+                width: $size;
+            }
         }
 
-        .w-33 {
-            width: 33.33%;
+        @each $name, $size in $percent_sizes {
+            .h-#{$name} {
+                height: $size;
+            }
         }
 
-        .w-25 {
-            width: 25%;
+        @each $name, $size in $vh_sizes {
+            .vh-#{$name} {
+                height: $size;
+            }
         }
 
-        .vw-100 {
-            width: 100vw;
+        @each $name, $size in $rem_sizes {
+            .remh-#{$name} {
+                height: $size;
+            }
         }
 
-        .vw-75 {
-            width: 75vw;
-        }
-
-        .vw-66 {
-            width: 66.66vw;
-        }
-
-        .vw-50 {
-            width: 50vw;
-        }
-
-        .vw-33 {
-            width: 33.33vw;
-        }
-
-        .vw-25 {
-            width: 25vw;
-        }
-
-        .h-100 {
-            height: 100%;
-        }
-
-        .h-75 {
-            height: 75%;
-        }
-
-        .h-66 {
-            height: 66.66%;
-        }
-
-        .h-50 {
-            height: 50%;
-        }
-
-        .h-33 {
-            height: 33.33%;
-        }
-
-        .h-25 {
-            height: 25%;
-        }
-
-        .vh-100 {
-            height: 100vh;
-        }
-
-        .vh-75 {
-            height: 75vh;
-        }
-
-        .vh-66 {
-            height: 66.66vh;
-        }
-
-        .vh-50 {
-            height: 50vh;
-        }
-
-        .vh-33 {
-            height: 33.33vh;
-        }
-
-        .vh-25 {
-            height: 25vh;
+        @each $name, $size in $em_sizes {
+            .emh-#{$name} {
+                height: $size;
+            }
         }
     }
 }
