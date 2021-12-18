@@ -1,4 +1,4 @@
-div.modal {
+div.modal, div.modal__mini, div.modal__big {
     background-color: rgba(7, 2, 29, 0.507);
     position: fixed;
     width: 100%;
@@ -23,7 +23,6 @@ div.modal {
     div.modal__content {
         width: 50%;
         margin-top: 100%;
-        height: calc(100% - 3em);
         background-color: white;
         border-top-right-radius: 12px;
         border-top-left-radius: 12px;
@@ -56,5 +55,58 @@ div.modal {
             padding: 1rem;
             overflow: hidden;
         }
+    }
+}
+
+div.modal {
+    div.modal__content {
+        height: calc(100% - 3em);
+    }
+}
+
+div.modal__mini {
+    align-items: center;
+
+    div.modal__content {
+        margin-top: 10%; 
+        width: 30%;
+        min-height: 10rem;
+        border-radius: 12px;
+
+        div.modal__actions {
+            padding: 1rem;
+            display: flex;
+            box-shadow: 0px -2px 4px -2px rgba(41, 41, 41, 0.116);
+            justify-content: space-between;
+            
+            &.on__right {
+                justify-content: flex-end;
+            }
+
+            &.on__left { 
+                justify-content: flex-start;
+            }
+
+            &.on__center {
+                justify-content: center;
+            }
+        }
+    }
+}
+
+div.modal__big {
+    align-items: center;
+
+    &.active {
+        div.modal__content {
+            margin-top: 0;
+        }
+    }
+
+    div.modal__content {
+        margin-top: 10%; 
+        width: 95%;
+        height: 95%;
+        border-radius: 12px;
     }
 }

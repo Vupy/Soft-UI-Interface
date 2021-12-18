@@ -101,7 +101,14 @@ div.app {
         box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
 
         &:hover {
-            box-shadow: 0 0 4px -1px rgba(0, 0, 0, .5);
+            box-shadow: 0px 3.1px 7.6px rgba(0, 0, 0, 0.011),
+                0px 5.6px 12.8px rgba(0, 0, 0, 0.014),
+                0px 7.9px 16.8px rgba(0, 0, 0, 0.015),
+                0px 10.1px 20.3px rgba(0, 0, 0, 0.016),
+                0px 12.8px 24px rgba(0, 0, 0, 0.018),
+                0px 16.2px 28.7px rgba(0, 0, 0, 0.019),
+                0px 21.7px 36.3px rgba(0, 0, 0, 0.022),
+                0px 35px 56px rgba(0, 0, 0, 0.03);
         }
 
         i.sized {
@@ -270,7 +277,16 @@ div.app {
             background-color: white;
             overflow: hidden;
             border-radius: 8px;
-            box-shadow: 0 0 6px -1px rgba(89, 49, 56, .2), 0 0 8px -1px rgba(89, 49, 56, .15);
+            box-shadow:
+                5px 7.1px 18.4px rgba(0, 0, 0, 0.004),
+                6.8px 9.6px 33.3px rgba(0, 0, 0, 0.006),
+                7.9px 11.2px 45.8px rgba(0, 0, 0, 0.007),
+                8.7px 12.4px 56.9px rgba(0, 0, 0, 0.009),
+                9.5px 13.5px 67.9px rgba(0, 0, 0, 0.01),
+                10.4px 14.7px 80.2px rgba(0, 0, 0, 0.012),
+                11.6px 16.5px 96.8px rgba(0, 0, 0, 0.014),
+                13.6px 19.3px 123.4px rgba(0, 0, 0, 0.017),
+                19px 27px 190px rgba(0, 0, 0, 0.02);
 
             div.image__card {
                 width: 100%;
