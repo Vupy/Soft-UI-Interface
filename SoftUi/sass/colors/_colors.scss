@@ -1,0 +1,59 @@
+@use "sass:map";
+@import '../effects/effects';
+
+@mixin create_color_object($class, $color, $type, $effect) {
+    .#{$effect}#{$class}__50#{map.get($effects, $effect)} {
+        #{$type}: lighten($color: $color, $amount: 30);
+    }
+
+    @for $i from 1 to 5 {
+        .#{$effect}#{$class}__#{$i * 100}#{map.get($effects, $effect)} {
+            #{$type}: lighten($color: $color, $amount: (5 - $i) * 5);
+        }
+    }
+    
+    @for $i from 0 to 5 {
+        .#{$effect}#{$class}__#{$i * 100 + 500}#{map.get($effects, $effect)} {
+            #{$type}: darken($color: $color, $amount: $i * 5);
+        }
+    }
+
+    .#{$effect}#{$class}#{map.get($effects, $effect)} {
+        #{$type}: $color;
+    }
+}
+
+@mixin create_color_palette($class, $color, $effect) {
+    @include create_color_object(text__#{$class}, $color, color, $effect);
+    @include create_color_object(border__#{$class}, $color, border-color, $effect);
+    @include create_color_object(bg__#{$class}, $color, background-color, $effect);
+}
+
+@each $i, $_ in $effects {
+    @include create_color_palette(main, #e7002a, $i);
+    @include create_color_palette(rose, #f43f5e, $i);
+    @include create_color_palette(pink, #ec4899, $i);
+    @include create_color_palette(hot__pink, #ff499e, $i);
+    @include create_color_palette(purple, #a855f7, $i);
+    @include create_color_palette(violet, #8b5cf6, $i);
+    @include create_color_palette(indigo, #6366f1, $i);
+    @include create_color_palette(blue, #3b82f6, $i);
+    @include create_color_palette(turquoise, #04a6c2, $i);
+    @include create_color_palette(sky__blue, #0ea5e9, $i);
+    @include create_color_palette(cyan, #06b6d4, $i);
+    @include create_color_palette(teal, #14b8a6, $i);
+    @include create_color_palette(green, #22c55e, $i);
+    @include create_color_palette(lime, #84cc16, $i);
+    @include create_color_palette(yellow, #eab308, $i);
+    @include create_color_palette(ambar, #f59e0b, $i);
+    @include create_color_palette(deep__orange, #f24b04, $i);
+    @include create_color_palette(orange, #f97316, $i);
+    @include create_color_palette(red, #ef4444, $i);
+    @include create_color_palette(gray, #737373, $i);
+    @include create_color_palette(flat__gray, #71717a, $i);
+    @include create_color_palette(blue__gray, #6b7280, $i);
+    @include create_color_palette(slate, #64748b, $i);
+    @include create_color_palette(brown, #994404, $i);
+    @include create_color_palette(black, black, $i);
+    @include create_color_palette(white, white, $i);
+}

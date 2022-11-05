@@ -1,0 +1,22 @@
+@use "sass:map";
+@import '../effects/effects';
+
+@mixin delays($effect) {
+    .#{$effect}delay__0\.25#{map.get($effects, $effect)} {
+        transition-delay: 25ms;
+    }
+
+    .#{$effect}delay__0\.75#{map.get($effects, $effect)} {
+        transition-delay: 75ms;
+    }
+
+    @for $i from 1 to 21 {
+        .#{$effect}delay__#{$i}#{map.get($effects, $effect)} {
+            transition-delay: #{$i * 50}ms;
+        }
+    }
+}
+
+@each $i, $_ in $effects {
+    @include delays($i);
+}

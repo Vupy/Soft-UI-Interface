@@ -1,0 +1,81 @@
+@use "sass:map";
+@import '../effects/effects';
+
+@mixin flex_alignments($type, $name, $effect) {
+    .#{$effect}flex__align__#{$name}#{map.get($effects, $effect)} {
+        align-items: $type;
+    }
+    
+    .#{$effect}flex__justify__#{$name}#{map.get($effects, $effect)} {
+        justify-content: $type;
+    }
+}
+
+@mixin flex_cols($effect) {
+    @for $i from 1 to 13 {
+        .#{$effect}flex__col__#{$i}#{map.get($effects, $effect)} {
+            flex: 0 0 calc(100% / (12 / #{$i}));
+            max-width: calc(100% / (12 / #{$i}));
+        }
+    }
+}
+
+@each $i, $j in $effects {
+    .#{$i}flex#{$j} {
+        display: flex;
+    }
+
+    .#{$i}flex__row#{$j} {
+        flex-direction: row;
+    }
+
+    .#{$i}flex__row__reverse#{$j} {
+        flex-direction: row-reverse;
+    }
+
+    .#{$i}flex__column#{$j} {
+        flex-direction: column;
+    }
+
+    .#{$i}flex__column__reverse#{$j} {
+        flex-direction: column-reverse;
+    }
+
+    .#{$i}flex__wrap#{$j} {
+        flex-wrap: wrap;
+    }
+
+    .#{$i}flex__nowrap#{$j} {
+        flex-wrap: nowrap;
+    }
+
+    .#{$i}flex__wrap__reverse#{$j} {
+        flex-wrap: wrap-reverse;
+    }
+
+    @include flex_alignments(center, center, $i);
+    @include flex_alignments(flex-end, end, $i);
+    @include flex_alignments(flex-start, start, $i);
+
+    .#{$i}flex__align__baseline#{$j} {
+        align-items: baseline;
+    }
+
+    .#{$i}flex__justify__around#{$j} {
+        justify-content: space-around;
+    }
+
+    .#{$i}flex__justify__between#{$j} {
+        justify-content: space-between;
+    }
+
+    .#{$i}flex__justify__evenly#{$j} {
+        justify-content: space-evenly;
+    }
+
+    .#{$i}flex__justify__baseline#{$j} {
+        justify-content: baseline;
+    }
+
+    @include flex_cols($i);
+}
