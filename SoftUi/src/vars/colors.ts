@@ -1,0 +1,30 @@
+const colors: Record<string, string> = {
+    main: "#e7002a",
+    rose: "#f43f5e",
+    pink: "#ec4899",
+    hot__pink: "#ff499e",
+    purple: "#a855f7",
+    violet: "#8b5cf6",
+    indigo: "#6366f1",
+    blue: "#3b82f6",
+    turquoise: "#04a6c2",
+    sky__blue: "#0ea5e9",
+    cyan: "#06b6d4",
+    teal: "#14b8a6",
+    green: "#22c55e",
+    lime: "#84cc16",
+    yellow: "#eab308",
+    ambar: "#f59e0b",
+    deep__orange: "#f24b04",
+    orange: "#f97316",
+    red: "#ef4444",
+    gray: "#737373",
+    flat__gray: "#71717a",
+    blue__gray: "#6b7280",
+    slate: "#64748b",
+    brown: "#994404",
+    black: "#000000",
+    white: "#ffffff"
+}
+
+export { colors }

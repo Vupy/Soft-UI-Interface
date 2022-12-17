@@ -1,5 +1,7 @@
 # Soft UI Interface (SUI)
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 Este é um repositório sobre o conceito de UI do Projeto da Vupy, aqui é onde toda a lógica do nosso design se baseará. Estamos fazendo isso para deixar o nosso padrão de prototipação e de estruturação público e livre para que qualquer um possa usar de forma irrestrita, seja uso ou modificação seguindo apenas a nossa licença BSD-3-Clause License.  
 
 <br><br>
